@@ -1,0 +1,5 @@
+/Users/zaidsattar/cpp-react-websockets/backend/build/CMakeFiles/server.dir
+/Users/zaidsattar/cpp-react-websockets/backend/build/CMakeFiles/edit_cache.dir
+/Users/zaidsattar/cpp-react-websockets/backend/build/CMakeFiles/rebuild_cache.dir
+/Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-build/CMakeFiles/edit_cache.dir
+/Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-build/CMakeFiles/rebuild_cache.dir

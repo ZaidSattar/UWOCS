@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "C++ backend for React frontend using WebSockets",
+  "main": "server.cpp",
+  "scripts": {
+    "build": "node-gyp configure build",
+    "start": "./build/Release/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-gyp": "^10.2.0"
+  }
+}
