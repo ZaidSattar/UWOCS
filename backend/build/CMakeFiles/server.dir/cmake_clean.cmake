@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/server.dir/src/DocumentHandler.cpp.o"
   "CMakeFiles/server.dir/src/DocumentHandler.cpp.o.d"
+  "CMakeFiles/server.dir/src/ScheduleHandler.cpp.o"
+  "CMakeFiles/server.dir/src/ScheduleHandler.cpp.o.d"
   "CMakeFiles/server.dir/src/server.cpp.o"
   "CMakeFiles/server.dir/src/server.cpp.o.d"
   "server"

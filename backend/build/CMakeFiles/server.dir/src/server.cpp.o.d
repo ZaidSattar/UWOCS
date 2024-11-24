@@ -2389,4 +2389,5 @@ CMakeFiles/server.dir/src/server.cpp.o: \
   /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/conversions/to_chars.hpp \
   /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/ordered_map.hpp \
   /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/macro_unscope.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
+  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+  /Users/zaidsattar/cpp-react-websockets/backend/include/ScheduleHandler.h

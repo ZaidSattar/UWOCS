@@ -5,6 +5,7 @@
 #include <thread>
 #include "DocumentHandler.h"
 #include <nlohmann/json.hpp>
+#include "ScheduleHandler.h"
 
 namespace beast = boost::beast;
 namespace websocket = beast::websocket;
@@ -15,6 +16,7 @@ using json = nlohmann::json;
 void handle_session(websocket::stream<tcp::socket> ws) {
     try {
         DocumentHandler docHandler;
+        ScheduleHandler scheduleHandler;
         
         // Set suggested timeout settings for the websocket
         ws.set_option(websocket::stream_base::timeout::suggested(
@@ -35,6 +37,8 @@ void handle_session(websocket::stream<tcp::socket> ws) {
                 std::string message(boost::asio::buffers_begin(buffer.data()),
                                   boost::asio::buffers_end(buffer.data()));
                 
+                std::cout << "Debug: Received WebSocket message: " << message << std::endl;
+                
                 try {
                     auto request = json::parse(message);
                     if (request["type"] == "get_files") {
@@ -47,6 +51,20 @@ void handle_session(websocket::stream<tcp::socket> ws) {
                         auto fileData = docHandler.getDocument(filename);
                         ws.binary(true);
                         ws.write(net::buffer(fileData));
+                    }
+                    else if (request["type"] == "getSchedule") {
+                        std::string schedule = scheduleHandler.getSchedule();
+                        ws.text(true);
+                        ws.write(net::buffer(schedule));
+                    }
+                    else if (request["type"] == "addScheduleEvent") {
+                        bool success = scheduleHandler.addEvent(request["event"]);
+                        json response = {
+                            {"type", "scheduleResponse"},
+                            {"success", success}
+                        };
+                        ws.text(true);
+                        ws.write(net::buffer(response.dump()));
                     }
                 } catch (const json::parse_error& e) {
                     std::cerr << "JSON parse error: " << e.what() << "\n";

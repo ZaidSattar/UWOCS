@@ -1,0 +1,30 @@
+SCHEDULE EVENTS
+---------------
+
+Event ID: event_848328
+Title: sdasd
+Type: assignment
+Date: 1732413137
+Description: sadasdasd
+Course: dsadasd
+Reminder Days: 1
+---------------
+
+Event ID: event_419020
+Title: sadsadasdas
+Type: assignment
+Date: 1732499520
+Description: asdasd
+Course: sdasd
+Reminder Days: 1
+---------------
+
+Event ID: event_117594
+Title: sadasdsad
+Type: assignment
+Date: 1732499640
+Description: sdasd
+Course: sxcsdx
+Reminder Days: 1
+---------------
+

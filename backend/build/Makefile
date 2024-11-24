@@ -153,6 +153,30 @@ src/DocumentHandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/DocumentHandler.cpp.s
 .PHONY : src/DocumentHandler.cpp.s
 
+src/ScheduleHandler.o: src/ScheduleHandler.cpp.o
+.PHONY : src/ScheduleHandler.o
+
+# target to build an object file
+src/ScheduleHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/ScheduleHandler.cpp.o
+.PHONY : src/ScheduleHandler.cpp.o
+
+src/ScheduleHandler.i: src/ScheduleHandler.cpp.i
+.PHONY : src/ScheduleHandler.i
+
+# target to preprocess a source file
+src/ScheduleHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/ScheduleHandler.cpp.i
+.PHONY : src/ScheduleHandler.cpp.i
+
+src/ScheduleHandler.s: src/ScheduleHandler.cpp.s
+.PHONY : src/ScheduleHandler.s
+
+# target to generate assembly for a file
+src/ScheduleHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/ScheduleHandler.cpp.s
+.PHONY : src/ScheduleHandler.cpp.s
+
 src/server.o: src/server.cpp.o
 .PHONY : src/server.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/DocumentHandler.o"
 	@echo "... src/DocumentHandler.i"
 	@echo "... src/DocumentHandler.s"
+	@echo "... src/ScheduleHandler.o"
+	@echo "... src/ScheduleHandler.i"
+	@echo "... src/ScheduleHandler.s"
 	@echo "... src/server.o"
 	@echo "... src/server.i"
 	@echo "... src/server.s"

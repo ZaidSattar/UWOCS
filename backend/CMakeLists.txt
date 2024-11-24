@@ -30,6 +30,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 set(SOURCES
     src/server.cpp
     src/DocumentHandler.cpp
+    src/ScheduleHandler.cpp
 )
 
 # Add executable
