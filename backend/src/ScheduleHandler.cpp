@@ -14,7 +14,7 @@ ScheduleHandler::ScheduleHandler() {
 }
 
 std::string ScheduleHandler::getSchedule() {
-    loadEvents();  // Make sure to load events first
+    loadEvents();  
     
     json eventsArray = json::array();
     for (const auto& event : events) {
@@ -47,11 +47,10 @@ bool ScheduleHandler::addEvent(const json& eventData) {
         event.course = eventData["course"];
         event.reminderDays = eventData["reminderDays"];
         
-        // Convert numeric timestamp to time_t
         event.date = static_cast<std::time_t>(eventData["date"]);
         
         events.push_back(event);
-        saveEvents();  // Use the existing saveEvents() function instead of direct file writing
+        saveEvents(); 
         
         return true;
     } catch (const std::exception& e) {
@@ -98,7 +97,6 @@ void ScheduleHandler::saveEvents() {
     try {
         std::filesystem::create_directories(std::filesystem::path(SCHEDULE_PATH).parent_path());
         
-        // Open file in text mode
         std::ofstream file(SCHEDULE_PATH, std::ios::out | std::ios::trunc);
         if (!file) {
             throw std::runtime_error("Failed to open file");
@@ -107,7 +105,6 @@ void ScheduleHandler::saveEvents() {
         std::string content = ss.str();
         file << content;
         
-        // Force write to disk
         file.flush();
         file.close();
         
@@ -169,7 +166,5 @@ std::string ScheduleHandler::generateId() {
 }
 
 void ScheduleHandler::sendReminders() {
-    // TODO: Implement actual reminder functionality
     std::cout << "Debug: Sending reminders (not implemented)" << std::endl;
 }
-

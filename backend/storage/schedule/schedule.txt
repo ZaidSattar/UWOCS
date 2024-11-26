@@ -28,3 +28,12 @@ Course: sxcsdx
 Reminder Days: 1
 ---------------
 
+Event ID: event_108673
+Title: asdsadsad
+Type: assignment
+Date: 1732468167
+Description: dasdsadasd
+Course: sadas
+Reminder Days: 1
+---------------
+
