@@ -1,138 +1,128 @@
-# Western Computer Science Student Portal
+<div align="center">
+  <img src="frontend/public/uwologo.png" alt="Western Logo" width="120"/>
+  <h1>Western Computer Science Student Portal</h1>
+  <p>Your Academic Journey, Simplified</p>
 
-A comprehensive web application for Western University Computer Science students to manage their academic journey. Built with React frontend and C++ backend using WebSocket communication.
+  <div>
+    <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react" alt="React"/>
+    <img src="https://img.shields.io/badge/C++-17-00599C?logo=cplusplus" alt="C++"/>
+    <img src="https://img.shields.io/badge/WebSocket-Protocol-010101" alt="WebSocket"/>
+  </div>
+</div>
 
-## Features
+## 🚀 Features
 
-### Course Planner
-- Plan courses across all 4 years of your degree
-- Organize courses by Fall, Winter and Summer terms
-- Track course completion status (completed, in progress, incomplete)
-- Add/remove courses from each term
-- Calculate course prerequisites and requirements
-- View course status updates in real-time
+### 📚 Course Planner
+- **Multi-Year Planning**: Design your 4-year academic roadmap
+- **Term Organization**: Structure courses across Fall, Winter, and Summer terms
+- **Status Tracking**: Monitor course completion states in real-time
+- **Dynamic Management**: Easily add/remove courses with instant updates
+- **Prerequisites**: Smart prerequisite validation and requirement tracking
+- **Live Updates**: Real-time status synchronization
 
-### GPA Calculator
-- Calculate cumulative GPA
-- Add/remove courses with their grades and weights
-- Automatic GPA computation based on Western's grading scale
-- Persistent storage of GPA records
-- Real-time updates as grades are modified
+### 📊 GPA Calculator
+- **Smart Calculation**: Automatic GPA computation using Western's scale
+- **Course Management**: Flexible course addition and removal
+- **Persistent Storage**: Automatic saving of all GPA records
+- **Weight System**: Support for different course weights
+- **Live Updates**: Instant GPA recalculation as you modify grades
 
-### Graduation Progress Tracking
-- Monitor progress towards degree completion
-- Track completed required courses
-- View remaining requirements
-- Support for different modules (e.g. Honors Computer Science)
-- Visual progress indicators
-- Automatic status updates as courses are completed
+### 🎓 Graduation Progress
+- **Degree Tracking**: Real-time monitoring of graduation requirements
+- **Module Support**: Specialized tracking for Honors Computer Science
+- **Visual Progress**: Clear visual indicators of completion status
+- **Requirement Analysis**: Detailed view of completed and remaining requirements
+- **Auto Updates**: Dynamic updates as you complete courses
 
-### Schedule Management
-- Interactive calendar interface
-- Add course assignments, tests and deadlines
-- Set reminders for upcoming events
-- Filter events by course
-- Color-coded event categories
-- Automatic reminder notifications
+### 📅 Schedule Management
+- **Interactive Calendar**: User-friendly calendar interface
+- **Event Types**: Support for assignments, tests, and deadlines
+- **Smart Reminders**: Customizable event notifications
+- **Course Filtering**: Easy filtering of events by course
+- **Visual Organization**: Color-coded event categorization
+- **Notification System**: Automated reminder system
 
-### Document Repository
-- Store and access course materials
-- Upload/download PDF documents
-- Search functionality for quick access
-- Organized by course
-- Preview documents before downloading
-- Secure document storage
+### 📁 Document Repository
+- **Material Management**: Centralized course material storage
+- **File Support**: PDF document handling
+- **Smart Search**: Quick document location
+- **Course Organization**: Materials organized by course
+- **Preview Feature**: Document preview before download
+- **Secure Storage**: Protected document management
 
-## Prerequisites
+## 🛠️ Prerequisites
 
-- Node.js (v14 or higher)
-- CMake (v3.10 or higher)
-- C++ Compiler (supporting C++17)
-- Boost Library
-- nlohmann/json Library
+- **Node.js** (v14+)
+- **CMake** (v3.10+)
+- **C++ Compiler** (C++17 support)
+- **Boost Library**
+- **nlohmann/json Library**
 
-## Installation & Setup
+## 🚀 Quick Start
 
 ### Backend Setup
-
-1. Navigate to backend directory:
 ```bash
+# Navigate to backend
 cd backend
-```
 
-2. Navigate to build directory:
-```bash
- cd build
-```
+# Enter build directory
+cd build
 
-3. Generate build files with CMake:
-```bash
+# Generate build files
 cmake ..
-```
 
-4. Build the project:
-```bash
+# Build project
 make
-```
 
-5. Run the server:
-```bash
+# Start server
 ./server
 ```
-
-The WebSocket server will start running on `ws://localhost:8080`
+Server will run on `ws://localhost:8080`
 
 ### Frontend Setup
-
-1. Open a new terminal and navigate to frontend directory:
 ```bash
+# Navigate to frontend
 cd frontend
-```
 
-2. Install dependencies:
-```bash
+# Install dependencies
 npm install
-```
 
-3. Start the development server:
-```bash
+# Start development server
 npm start
 ```
+Application opens at `http://localhost:3000`
 
-The application will open automatically in your default browser at `http://localhost:3000`
-
-## Project Structure
-
+## 📁 Project Structure
 ```
 .
 ├── backend/
-│   ├── include/          # Header files
+│   ├── include/          # C++ headers
 │   ├── src/             # C++ source files
-│   └── storage/         # Data storage files
+│   └── storage/         # Data persistence
 ├── frontend/
-│   ├── public/          # Static files
-│   └── src/             # React components and logic
+│   ├── public/          # Static assets
+│   └── src/
 │       ├── Components/  # React components
 │       ├── contexts/    # React contexts
-│       └── styles/      # CSS files
+│       └── styles/      # CSS styling
 ```
 
-## Dependencies
+## 🔧 Dependencies
 
 ### Backend
-- Boost.Beast (WebSocket)
-- nlohmann/json
-- C++17 Standard Library
+- **Boost.Beast**: WebSocket implementation
+- **nlohmann/json**: JSON handling
+- **C++17 STL**: Standard library features
 
 ### Frontend
-- React
-- React Router
-- React Icons
-- WebSocket API
+- **React**: UI framework
+- **React Router**: Navigation
+- **React Icons**: UI icons
+- **WebSocket API**: Real-time communication
 
-## Development
+## 💻 Development
 
-- Backend runs on port 8080 handling WebSocket connections
+- Backend serves WebSocket connections on port 8080
 - Frontend development server runs on port 3000
-- Real-time communication between frontend and backend via WebSocket
-- Data persistence handled in backend storage files
+- Real-time bidirectional communication via WebSocket
+- File-based data persistence in backend storage
