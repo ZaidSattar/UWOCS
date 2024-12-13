@@ -18,19 +18,24 @@ find_package(Threads REQUIRED)
 include(FetchContent)
 FetchContent_Declare(
     json
-    URL https://github.com/nlohmann/json/releases/download/v3.11.2/json.tar.xz
-    DOWNLOAD_EXTRACT_TIMESTAMP TRUE
+    GIT_REPOSITORY https://github.com/nlohmann/json.git
+    GIT_TAG v3.11.2
 )
 FetchContent_MakeAvailable(json)
 
 # Include directories
 include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(${nlohmann_json_SOURCE_DIR}/single_include)  
+include_directories(${CMAKE_BINARY_DIR}/_deps/json-src/include)  
 
 # Add source files explicitly
 set(SOURCES
     src/server.cpp
     src/DocumentHandler.cpp
     src/ScheduleHandler.cpp
+    src/GPACalculator.cpp
+    src/GraduationProgress.cpp
+    src/CoursePlanner.cpp
 )
 
 # Add executable
@@ -43,3 +48,7 @@ target_link_libraries(server
     Threads::Threads
     nlohmann_json::nlohmann_json
 )
+
+# Include nlohmann/json
+find_package(nlohmann_json 3.10.5 REQUIRED)
+

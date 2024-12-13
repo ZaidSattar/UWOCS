@@ -36,6 +36,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/Cellar/cmake/3.31.0/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake"
   "/opt/homebrew/Cellar/cmake/3.31.0/share/cmake/Modules/FetchContent.cmake"
   "/opt/homebrew/Cellar/cmake/3.31.0/share/cmake/Modules/FetchContent/CMakeLists.cmake.in"
+  "/opt/homebrew/Cellar/cmake/3.31.0/share/cmake/Modules/FindGit.cmake"
   "/opt/homebrew/Cellar/cmake/3.31.0/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/opt/homebrew/Cellar/cmake/3.31.0/share/cmake/Modules/FindPackageMessage.cmake"
   "/opt/homebrew/Cellar/cmake/3.31.0/share/cmake/Modules/FindThreads.cmake"
@@ -70,6 +71,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/lib/cmake/boost_system-1.86.0/libboost_system-variant-mt-static.cmake"
   "/opt/homebrew/lib/cmake/boost_system-1.86.0/libboost_system-variant-shared.cmake"
   "/opt/homebrew/lib/cmake/boost_system-1.86.0/libboost_system-variant-static.cmake"
+  "/opt/homebrew/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake"
+  "/opt/homebrew/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
   )
 
 # The corresponding makefile is:

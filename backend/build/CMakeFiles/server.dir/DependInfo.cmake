@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/zaidsattar/cpp-react-websockets/backend/src/CoursePlanner.cpp" "CMakeFiles/server.dir/src/CoursePlanner.cpp.o" "gcc" "CMakeFiles/server.dir/src/CoursePlanner.cpp.o.d"
   "/Users/zaidsattar/cpp-react-websockets/backend/src/DocumentHandler.cpp" "CMakeFiles/server.dir/src/DocumentHandler.cpp.o" "gcc" "CMakeFiles/server.dir/src/DocumentHandler.cpp.o.d"
+  "/Users/zaidsattar/cpp-react-websockets/backend/src/GPACalculator.cpp" "CMakeFiles/server.dir/src/GPACalculator.cpp.o" "gcc" "CMakeFiles/server.dir/src/GPACalculator.cpp.o.d"
+  "/Users/zaidsattar/cpp-react-websockets/backend/src/GraduationProgress.cpp" "CMakeFiles/server.dir/src/GraduationProgress.cpp.o" "gcc" "CMakeFiles/server.dir/src/GraduationProgress.cpp.o.d"
   "/Users/zaidsattar/cpp-react-websockets/backend/src/ScheduleHandler.cpp" "CMakeFiles/server.dir/src/ScheduleHandler.cpp.o" "gcc" "CMakeFiles/server.dir/src/ScheduleHandler.cpp.o.d"
   "/Users/zaidsattar/cpp-react-websockets/backend/src/server.cpp" "CMakeFiles/server.dir/src/server.cpp.o" "gcc" "CMakeFiles/server.dir/src/server.cpp.o.d"
   )

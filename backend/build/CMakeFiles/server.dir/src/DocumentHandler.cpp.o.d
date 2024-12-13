@@ -975,7 +975,7 @@ CMakeFiles/server.dir/src/DocumentHandler.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/json.hpp \
+  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/single_include/nlohmann/json.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/numeric \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/accumulate.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
@@ -990,55 +990,14 @@ CMakeFiles/server.dir/src/DocumentHandler.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/saturation_arithmetic.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/adl_serializer.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/abi_macros.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/conversions/from_json.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/forward_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__tree \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/valarray \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/exceptions.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/value_t.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/macro_scope.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/meta/detected.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/meta/void_t.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/thirdparty/hedley/hedley.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_static_assert.h \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/string_escape.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/input/position_t.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/meta/cpp_future.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/meta/type_traits.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/iterators/iterator_traits.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/meta/call_std/begin.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/meta/call_std/end.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/json_fwd.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/string_concat.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/meta/identity_tag.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/meta/std_fs.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/conversions/to_json.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/iterators/iteration_proxy.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/byte_container_with_subtype.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/hash.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/input/binary_reader.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/input/input_adapters.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/input/json_sax.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/input/lexer.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/meta/is_sax.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/input/parser.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/iterators/internal_iterator.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/iterators/primitive_iterator.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/iterators/iter_impl.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/json_pointer.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/json_ref.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/output/binary_writer.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/output/output_adapters.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/output/serializer.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/conversions/to_chars.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/ordered_map.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/any \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/chrono \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/calendar.h \
@@ -1055,8 +1014,6 @@ CMakeFiles/server.dir/src/DocumentHandler.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year_month_day.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/literals.h \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/detail/macro_unscope.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/build/_deps/json-src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/sstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream

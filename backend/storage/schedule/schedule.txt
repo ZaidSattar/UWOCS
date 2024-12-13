@@ -1,39 +1,21 @@
 SCHEDULE EVENTS
 ---------------
 
-Event ID: event_848328
-Title: sdasd
+Event ID: event_249161
+Title: CS 3307
 Type: assignment
-Date: 1732413137
-Description: sadasdasd
-Course: dsadasd
+Date: 1734047216
+Description: 
+Course: CS 3305
 Reminder Days: 1
 ---------------
 
-Event ID: event_419020
-Title: sadsadasdas
+Event ID: event_176070
+Title: Test
 Type: assignment
-Date: 1732499520
-Description: asdasd
-Course: sdasd
-Reminder Days: 1
----------------
-
-Event ID: event_117594
-Title: sadasdsad
-Type: assignment
-Date: 1732499640
-Description: sdasd
-Course: sxcsdx
-Reminder Days: 1
----------------
-
-Event ID: event_108673
-Title: asdsadsad
-Type: assignment
-Date: 1732468167
-Description: dasdsadasd
-Course: sadas
+Date: 1734047227
+Description: 
+Course: CS 3342
 Reminder Days: 1
 ---------------
 

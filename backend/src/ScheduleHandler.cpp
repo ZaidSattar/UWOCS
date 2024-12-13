@@ -31,7 +31,6 @@ std::string ScheduleHandler::getSchedule() {
     }
     
     std::string jsonStr = eventsArray.dump();
-    std::cout << "Debug: Sending schedule to frontend: " << jsonStr << std::endl;
     return jsonStr;
 }
 

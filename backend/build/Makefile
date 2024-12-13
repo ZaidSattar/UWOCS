@@ -129,6 +129,30 @@ server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
 .PHONY : server/fast
 
+src/CoursePlanner.o: src/CoursePlanner.cpp.o
+.PHONY : src/CoursePlanner.o
+
+# target to build an object file
+src/CoursePlanner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/CoursePlanner.cpp.o
+.PHONY : src/CoursePlanner.cpp.o
+
+src/CoursePlanner.i: src/CoursePlanner.cpp.i
+.PHONY : src/CoursePlanner.i
+
+# target to preprocess a source file
+src/CoursePlanner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/CoursePlanner.cpp.i
+.PHONY : src/CoursePlanner.cpp.i
+
+src/CoursePlanner.s: src/CoursePlanner.cpp.s
+.PHONY : src/CoursePlanner.s
+
+# target to generate assembly for a file
+src/CoursePlanner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/CoursePlanner.cpp.s
+.PHONY : src/CoursePlanner.cpp.s
+
 src/DocumentHandler.o: src/DocumentHandler.cpp.o
 .PHONY : src/DocumentHandler.o
 
@@ -152,6 +176,54 @@ src/DocumentHandler.s: src/DocumentHandler.cpp.s
 src/DocumentHandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/DocumentHandler.cpp.s
 .PHONY : src/DocumentHandler.cpp.s
+
+src/GPACalculator.o: src/GPACalculator.cpp.o
+.PHONY : src/GPACalculator.o
+
+# target to build an object file
+src/GPACalculator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/GPACalculator.cpp.o
+.PHONY : src/GPACalculator.cpp.o
+
+src/GPACalculator.i: src/GPACalculator.cpp.i
+.PHONY : src/GPACalculator.i
+
+# target to preprocess a source file
+src/GPACalculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/GPACalculator.cpp.i
+.PHONY : src/GPACalculator.cpp.i
+
+src/GPACalculator.s: src/GPACalculator.cpp.s
+.PHONY : src/GPACalculator.s
+
+# target to generate assembly for a file
+src/GPACalculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/GPACalculator.cpp.s
+.PHONY : src/GPACalculator.cpp.s
+
+src/GraduationProgress.o: src/GraduationProgress.cpp.o
+.PHONY : src/GraduationProgress.o
+
+# target to build an object file
+src/GraduationProgress.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/GraduationProgress.cpp.o
+.PHONY : src/GraduationProgress.cpp.o
+
+src/GraduationProgress.i: src/GraduationProgress.cpp.i
+.PHONY : src/GraduationProgress.i
+
+# target to preprocess a source file
+src/GraduationProgress.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/GraduationProgress.cpp.i
+.PHONY : src/GraduationProgress.cpp.i
+
+src/GraduationProgress.s: src/GraduationProgress.cpp.s
+.PHONY : src/GraduationProgress.s
+
+# target to generate assembly for a file
+src/GraduationProgress.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/GraduationProgress.cpp.s
+.PHONY : src/GraduationProgress.cpp.s
 
 src/ScheduleHandler.o: src/ScheduleHandler.cpp.o
 .PHONY : src/ScheduleHandler.o
@@ -210,9 +282,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... server"
+	@echo "... src/CoursePlanner.o"
+	@echo "... src/CoursePlanner.i"
+	@echo "... src/CoursePlanner.s"
 	@echo "... src/DocumentHandler.o"
 	@echo "... src/DocumentHandler.i"
 	@echo "... src/DocumentHandler.s"
+	@echo "... src/GPACalculator.o"
+	@echo "... src/GPACalculator.i"
+	@echo "... src/GPACalculator.s"
+	@echo "... src/GraduationProgress.o"
+	@echo "... src/GraduationProgress.i"
+	@echo "... src/GraduationProgress.s"
 	@echo "... src/ScheduleHandler.o"
 	@echo "... src/ScheduleHandler.i"
 	@echo "... src/ScheduleHandler.s"

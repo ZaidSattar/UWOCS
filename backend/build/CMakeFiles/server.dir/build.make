@@ -114,11 +114,56 @@ CMakeFiles/server.dir/src/ScheduleHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/ScheduleHandler.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zaidsattar/cpp-react-websockets/backend/src/ScheduleHandler.cpp -o CMakeFiles/server.dir/src/ScheduleHandler.cpp.s
 
+CMakeFiles/server.dir/src/GPACalculator.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/GPACalculator.cpp.o: /Users/zaidsattar/cpp-react-websockets/backend/src/GPACalculator.cpp
+CMakeFiles/server.dir/src/GPACalculator.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zaidsattar/cpp-react-websockets/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server.dir/src/GPACalculator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/GPACalculator.cpp.o -MF CMakeFiles/server.dir/src/GPACalculator.cpp.o.d -o CMakeFiles/server.dir/src/GPACalculator.cpp.o -c /Users/zaidsattar/cpp-react-websockets/backend/src/GPACalculator.cpp
+
+CMakeFiles/server.dir/src/GPACalculator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/GPACalculator.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zaidsattar/cpp-react-websockets/backend/src/GPACalculator.cpp > CMakeFiles/server.dir/src/GPACalculator.cpp.i
+
+CMakeFiles/server.dir/src/GPACalculator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/GPACalculator.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zaidsattar/cpp-react-websockets/backend/src/GPACalculator.cpp -o CMakeFiles/server.dir/src/GPACalculator.cpp.s
+
+CMakeFiles/server.dir/src/GraduationProgress.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/GraduationProgress.cpp.o: /Users/zaidsattar/cpp-react-websockets/backend/src/GraduationProgress.cpp
+CMakeFiles/server.dir/src/GraduationProgress.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zaidsattar/cpp-react-websockets/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server.dir/src/GraduationProgress.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/GraduationProgress.cpp.o -MF CMakeFiles/server.dir/src/GraduationProgress.cpp.o.d -o CMakeFiles/server.dir/src/GraduationProgress.cpp.o -c /Users/zaidsattar/cpp-react-websockets/backend/src/GraduationProgress.cpp
+
+CMakeFiles/server.dir/src/GraduationProgress.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/GraduationProgress.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zaidsattar/cpp-react-websockets/backend/src/GraduationProgress.cpp > CMakeFiles/server.dir/src/GraduationProgress.cpp.i
+
+CMakeFiles/server.dir/src/GraduationProgress.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/GraduationProgress.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zaidsattar/cpp-react-websockets/backend/src/GraduationProgress.cpp -o CMakeFiles/server.dir/src/GraduationProgress.cpp.s
+
+CMakeFiles/server.dir/src/CoursePlanner.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/CoursePlanner.cpp.o: /Users/zaidsattar/cpp-react-websockets/backend/src/CoursePlanner.cpp
+CMakeFiles/server.dir/src/CoursePlanner.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zaidsattar/cpp-react-websockets/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/src/CoursePlanner.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/CoursePlanner.cpp.o -MF CMakeFiles/server.dir/src/CoursePlanner.cpp.o.d -o CMakeFiles/server.dir/src/CoursePlanner.cpp.o -c /Users/zaidsattar/cpp-react-websockets/backend/src/CoursePlanner.cpp
+
+CMakeFiles/server.dir/src/CoursePlanner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/CoursePlanner.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zaidsattar/cpp-react-websockets/backend/src/CoursePlanner.cpp > CMakeFiles/server.dir/src/CoursePlanner.cpp.i
+
+CMakeFiles/server.dir/src/CoursePlanner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/CoursePlanner.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zaidsattar/cpp-react-websockets/backend/src/CoursePlanner.cpp -o CMakeFiles/server.dir/src/CoursePlanner.cpp.s
+
 # Object files for target server
 server_OBJECTS = \
 "CMakeFiles/server.dir/src/server.cpp.o" \
 "CMakeFiles/server.dir/src/DocumentHandler.cpp.o" \
-"CMakeFiles/server.dir/src/ScheduleHandler.cpp.o"
+"CMakeFiles/server.dir/src/ScheduleHandler.cpp.o" \
+"CMakeFiles/server.dir/src/GPACalculator.cpp.o" \
+"CMakeFiles/server.dir/src/GraduationProgress.cpp.o" \
+"CMakeFiles/server.dir/src/CoursePlanner.cpp.o"
 
 # External object files for target server
 server_EXTERNAL_OBJECTS =
@@ -126,10 +171,13 @@ server_EXTERNAL_OBJECTS =
 server: CMakeFiles/server.dir/src/server.cpp.o
 server: CMakeFiles/server.dir/src/DocumentHandler.cpp.o
 server: CMakeFiles/server.dir/src/ScheduleHandler.cpp.o
+server: CMakeFiles/server.dir/src/GPACalculator.cpp.o
+server: CMakeFiles/server.dir/src/GraduationProgress.cpp.o
+server: CMakeFiles/server.dir/src/CoursePlanner.cpp.o
 server: CMakeFiles/server.dir/build.make
 server: /opt/homebrew/lib/libboost_system-mt.dylib
 server: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/zaidsattar/cpp-react-websockets/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/zaidsattar/cpp-react-websockets/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

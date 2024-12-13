@@ -1,0 +1,13 @@
+GPA RECORDS
+---------------
+
+Current GPA: 25.00
+
+COURSES:
+---------------
+
+Course Name: 25
+Grade: 25.00
+Weight: 1.00
+---------------
+
