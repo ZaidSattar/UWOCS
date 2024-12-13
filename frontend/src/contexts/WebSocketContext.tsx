@@ -56,19 +56,19 @@ export const WebSocketProvider: React.FC<{ children: React.ReactNode }> = ({ chi
 
         websocket.onmessage = (event) => {
             const data = JSON.parse(event.data);
-            console.log("Received WebSocket data:", data);
+            console.log("Raw WebSocket data:", data);
             
             if (Array.isArray(data)) {
-                console.log("Received schedule events:", data);
-                setScheduleEvents(data.map(event => ({
+                console.log("Processing schedule events array");
+                const updatedEvents = data.map(event => ({
                     ...event,
-                    date: new Date(event.date * 1000)
-                })));
+                    date: event.date
+                }));
+                console.log("Processed events:", updatedEvents);
+                setScheduleEvents(updatedEvents);
             } else if (data.type === 'eventAdded') {
-                setScheduleEvents(prevEvents => [...prevEvents, {
-                    ...data.event,
-                    date: new Date(data.event.date * 1000)
-                }]);
+                console.log("Event added:", data.event);
+                websocket.send(JSON.stringify({ type: 'getSchedule' }));
             }
         };
 
@@ -86,18 +86,23 @@ export const WebSocketProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     };
 
     const addScheduleEvent = (event: Omit<ScheduleEvent, 'id'>) => {
-        if (ws) {
-            ws.send(JSON.stringify({
-                type: 'addScheduleEvent',
-                event: {
-                    ...event,
-                    date: Math.floor(event.date.getTime() / 1000)
-                }
-            }));
-            
-            setTimeout(() => {
-                ws.send(JSON.stringify({ type: 'getSchedule' }));
-            }, 100);
+        if (ws && isConnected) {
+            try {
+                console.log("Sending new event:", event);
+                const message = {
+                    type: 'addScheduleEvent',
+                    event: {
+                        ...event,
+                        date: Math.floor(event.date.getTime() / 1000)
+                    }
+                };
+                console.log("Sending message:", message);
+                ws.send(JSON.stringify(message));
+            } catch (error) {
+                console.error("Error sending event:", error);
+            }
+        } else {
+            console.error("WebSocket not connected");
         }
     };
 

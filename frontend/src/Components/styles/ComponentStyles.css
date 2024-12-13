@@ -414,20 +414,19 @@
 .rbc-event {
     background: linear-gradient(135deg, rgba(138, 43, 226, 0.8), rgba(138, 43, 226, 0.6)) !important;
     border: none !important;
-    box-shadow: 0 4px 12px rgba(138, 43, 226, 0.3);
-    border-radius: 50%;
-    width: 24px !important; 
-    height: 24px !important; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    color: white;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative; 
+    border-radius: 12px !important;
+    width: auto !important;
+    min-width: 60px !important;
+    height: 24px !important;
+    padding: 0 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 12px !important;
+    color: white !important;
+    cursor: pointer !important;
+    margin: 0 auto !important;
 }
-
 
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -526,16 +525,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 9999;
-    border-radius: 50%;
-
+    padding: 2px;
 }
 
 .calendar-event-circle {
-    width: 24px;
+    width: auto;
+    min-width: 60px;
     height: 24px;
     background: linear-gradient(135deg, rgba(138, 43, 226, 0.8), rgba(138, 43, 226, 0.6));
-    border-radius: 50%;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -544,9 +542,11 @@
     transition: all 0.3s ease;
     cursor: pointer;
     border: none;
-    padding: 0;
-    position: relative;
-    z-index: 9999;
+    padding: 0 8px;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .calendar-event-circle:hover {
@@ -558,20 +558,14 @@
     position: fixed;
     left: 50%;
     top: 50%;
-    background: rgba(30, 30, 40, 0.98);
+    transform: translate(-50%, -50%);
+    background: #1e1e28;
     border: 1px solid rgba(138, 43, 226, 0.3);
     border-radius: 12px;
     padding: 1.5rem;
     width: 300px;
-    z-index: 10000;
-    box-shadow: 
-        0 10px 40px rgba(0, 0, 0, 0.3),
-        0 0 20px rgba(138, 43, 226, 0.2);
-    backdrop-filter: blur(12px);
-    user-select: none;
-    touch-action: none;
-    cursor: grab;
-    animation: cardAppear 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1001;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
 .calendar-event-card:active {
@@ -646,4 +640,886 @@
     color: white;
     background: rgba(255, 255, 255, 0.2);
     transform: rotate(90deg);
+}
+
+.rbc-event-content {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* Add a new overlay class */
+.calendar-event-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+/* GPA Calculator Styles */
+.gpa-calculator {
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(138, 43, 226, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Form layout */
+.form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    align-items: center;
+}
+
+.form-group {
+    position: relative;
+    flex: 1;
+}
+
+.form-group:first-child {
+    flex: 2;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 0.8rem 1rem 0.8rem 2.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(138, 43, 226, 0.2);
+    border-radius: 8px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.form-group select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem center;
+    background-size: 1em;
+}
+
+.form-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(138, 43, 226, 0.6);
+}
+
+.remove-course {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    background: rgba(255, 0, 0, 0.2);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.remove-course:hover {
+    background: rgba(255, 0, 0, 0.3);
+}
+
+.calculator-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(138, 43, 226, 0.2);
+}
+
+.calculator-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    margin: 0;
+    padding-right: 5rem;
+}
+
+.calculator-header button {
+    background: linear-gradient(135deg, rgba(138, 43, 226, 0.3), rgba(138, 43, 226, 0.2));
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.calculator-header button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgba(138, 43, 226, 0.4), rgba(138, 43, 226, 0.3));
+    box-shadow: 0 5px 15px rgba(138, 43, 226, 0.3);
+}
+
+.calculator-actions {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.calculate-button {
+    background: linear-gradient(135deg, rgba(138, 43, 226, 0.8), rgba(138, 43, 226, 0.6));
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.calculate-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(138, 43, 226, 0.3);
+}
+
+.gpa-result {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 2rem;
+    background: rgba(138, 43, 226, 0.1);
+    border-radius: 12px;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.gpa-result h3 {
+    color: white;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.gpa-explanation {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+    .gpa-calculator {
+        padding: 1rem;
+    }
+
+    .course-form {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+    }
+}
+
+/* GPA Course Entry Styles */
+.gpa-course-entry {
+    display: grid;
+    grid-template-columns: 180px 160px 120px 40px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(138, 43, 226, 0.2);
+    transition: all 0.2s ease;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.gpa-course-entry:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.course-input-group {
+    position: relative;
+    width: 60%;
+    max-width: 100%;
+}
+
+.course-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(138, 43, 226, 0.6);
+    font-size: 1rem;
+    pointer-events: none;
+}
+
+.course-input,
+.course-select {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 12px 10px 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(138, 43, 226, 0.2);
+    border-radius: 8px;
+    color: white;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.course-input:focus,
+.course-select:focus {
+    outline: none;
+    border-color: rgba(138, 43, 226, 0.5);
+    box-shadow: 0 0 0 2px rgba(138, 43, 226, 0.2);
+}
+
+.course-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px;
+    padding-right: 32px;
+}
+
+.course-remove-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 59, 48, 0.2);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 0;
+    margin: auto;
+}
+
+.course-remove-btn:hover {
+    background: rgba(255, 59, 48, 0.3);
+    transform: rotate(90deg);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .gpa-course-entry {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        gap: 15px;
+    }
+
+    .course-input-group {
+        max-width: 100%;
+    }
+}
+
+/* Course entry container */
+.course-entry-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Adjust input group width for grade field */
+.course-input-group:nth-child(2) {
+    width: 90px;
+    margin-right: 10px;
+}
+
+/* Graduation Progress Styles */
+.graduation-progress {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.progress-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(138, 43, 226, 0.2);
+}
+
+.progress-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+
+/* Module Cards Grid */
+.modules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.module-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(138, 43, 226, 0.2);
+    border-radius: 12px;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.module-card:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.module-card.selected {
+    background: rgba(138, 43, 226, 0.15);
+    border-color: rgba(138, 43, 226, 0.5);
+}
+
+.module-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.module-header h3 {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.module-description {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Requirements Section */
+.requirements-section {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-top: 2rem;
+    border: 1px solid rgba(138, 43, 226, 0.2);
+}
+
+.course-group {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    border: 1px solid rgba(138, 43, 226, 0.2);
+}
+
+.course-group-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(138, 43, 226, 0.2);
+}
+
+.course-group-header h4 {
+    color: white;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.course-count {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    background: rgba(138, 43, 226, 0.1);
+    border-radius: 8px;
+}
+
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.course-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.course-checkbox:not(.disabled):hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-2px);
+}
+
+.course-checkbox.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.check-icon {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.check-icon.completed {
+    color: #4CAF50;
+}
+
+.course-checkbox span {
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Progress Tracking */
+.calculate-progress {
+    background: linear-gradient(135deg, rgba(138, 43, 226, 0.8), rgba(138, 43, 226, 0.6));
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 2rem auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.calculate-progress:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(138, 43, 226, 0.3);
+}
+
+.progress-results {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: rgba(138, 43, 226, 0.1);
+    border-radius: 12px;
+}
+
+.progress-bar {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, rgba(138, 43, 226, 0.8), rgba(138, 43, 226, 0.6));
+    border-radius: 4px;
+    transition: width 0.5s ease;
+}
+
+.progress-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.stat h4 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.stat p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .graduation-progress {
+        padding: 1rem;
+    }
+
+    .modules-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .course-list {
+        grid-template-columns: 1fr;
+    }
+
+    .progress-stats {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+/* Course Planner Styles */
+.course-planner {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.course-planner h2 {
+    color: white;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Current Year Section */
+.current-year-section {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(138, 43, 226, 0.2);
+}
+
+.current-year-section h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.current-year-section select {
+    width: 200px;
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(138, 43, 226, 0.2);
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Year Sections */
+.year-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(138, 43, 226, 0.2);
+    overflow: hidden;
+}
+
+.year-header {
+    padding: 1.2rem;
+    background: rgba(138, 43, 226, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.year-header:hover {
+    background: rgba(138, 43, 226, 0.15);
+}
+
+.year-header h3 {
+    color: white;
+    margin: 0;
+}
+
+.year-content {
+    padding: 1.5rem;
+}
+
+/* Term Sections */
+.term-section {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(138, 43, 226, 0.1);
+}
+
+.term-header {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.term-header:hover {
+    background: rgba(138, 43, 226, 0.1);
+}
+
+.term-header h4 {
+    color: white;
+    margin: 0;
+}
+
+.term-content {
+    padding: 1rem;
+}
+
+/* Course List */
+.course-list {
+    display: grid;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.course-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    color: white;
+}
+
+.status-icon {
+    font-size: 1.2rem;
+}
+
+.status-icon.in-progress {
+    color: #ffd700;
+}
+
+.status-icon.completed {
+    color: #4CAF50;
+}
+
+.status-icon.incomplete {
+    color: #ff4444;
+}
+
+.remove-course {
+    margin-left: auto;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.remove-course:hover {
+    color: #ff4444;
+    transform: scale(1.1);
+}
+
+/* Add Course Section */
+.add-course {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.add-course input {
+    flex: 1;
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(138, 43, 226, 0.2);
+    border-radius: 6px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.add-course button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.2rem;
+    background: linear-gradient(135deg, rgba(138, 43, 226, 0.6), rgba(138, 43, 226, 0.4));
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.add-course button:hover {
+    background: linear-gradient(135deg, rgba(138, 43, 226, 0.7), rgba(138, 43, 226, 0.5));
+    transform: translateY(-1px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .course-planner {
+        padding: 1rem;
+    }
+
+    .add-course {
+        flex-direction: column;
+    }
+
+    .add-course button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Status Table Styles */
+.status-table-container {
+    margin-top: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid rgba(138, 43, 226, 0.2);
+}
+
+.status-table-container h3 {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.status-table {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.status-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 1rem;
+    padding: 1rem;
+    background: rgba(138, 43, 226, 0.1);
+    color: white;
+    font-weight: 600;
+}
+
+.status-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 1rem;
+    padding: 1rem;
+    color: white;
+    border-bottom: 1px solid rgba(138, 43, 226, 0.1);
+    transition: all 0.2s ease;
+}
+
+.status-row:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.status.in_progress {
+    color: #ffd700;
+}
+
+.status.completed {
+    color: #4CAF50;
+}
+
+.status.incomplete {
+    color: #ff4444;
+}
+
+.calculate-status-button {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, rgba(138, 43, 226, 0.8), rgba(138, 43, 226, 0.6));
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.calculate-status-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(138, 43, 226, 0.3);
+}
+
+/* Empty state styling */
+.empty-state {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 2rem !important;
+    font-style: italic;
+    grid-column: 1 / -1;  /* Span all columns */
+}
+
+.status-table {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.status-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 1rem;
+    padding: 1rem;
+    background: rgba(138, 43, 226, 0.1);
+    color: white;
+    font-weight: 600;
+}
+
+.status-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 1rem;
+    padding: 1rem;
+    color: white;
+    border-bottom: 1px solid rgba(138, 43, 226, 0.1);
+    transition: all 0.2s ease;
+}
+
+.status-row:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.status-table-container {
+    margin-top: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid rgba(138, 43, 226, 0.2);
+}
+
+.status-table-container h3 {
+    color: white;
+    margin-bottom: 1.5rem;
 }

@@ -53,42 +53,55 @@ const EventComponent = ({ event }) => {
 
     return (
         <div className="calendar-event-wrapper">
-            <button
+            <div
                 className="calendar-event-circle"
                 onClick={handleClick}
+                style={{
+                    cursor: 'pointer',
+                    padding: '2px 4px',
+                    fontSize: '0.85em',
+                    whiteSpace: 'nowrap',
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis'
+                }}
             >
-                <FaBook />
-            </button>
+                {event.title}
+            </div>
             {isCardOpen && (
-                <div
-                    className="calendar-event-card"
-                    style={{
-                        transform: `translate(calc(-50% + ${position.x}px), calc(-50% + ${position.y}px))`,
-                        cursor: isDragging ? 'grabbing' : 'grab'
-                    }}
-                    onMouseDown={handleMouseDown}
-                    onClick={(e) => e.stopPropagation()}
-                >
-                    <div className="card-header">
-                        <h4>{event.title}</h4>
-                        <button
-                            className="close-button"
-                            onClick={(e) => {
-                                e.stopPropagation();
-                                setIsCardOpen(false);
-                            }}
-                        >
-                            <FaTimes />
-                        </button>
+                <>
+                    <div className="calendar-event-overlay" onClick={() => setIsCardOpen(false)} />
+                    <div
+                        className="calendar-event-card"
+                        style={{
+                            transform: `translate(calc(-50% + ${position.x}px), calc(-50% + ${position.y}px))`,
+                            cursor: isDragging ? 'grabbing' : 'grab',
+                            zIndex: 10000
+                        }}
+                        onMouseDown={handleMouseDown}
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <div className="card-header">
+                            <h4>{event.title}</h4>
+                            <button
+                                className="close-button"
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    setIsCardOpen(false);
+                                }}
+                            >
+                                <FaTimes />
+                            </button>
+                        </div>
+                        <div className="event-details">
+                            <p><FaBook /> Course: {event.course}</p>
+                            <p><FaClock /> Time: {moment(event.start).format('h:mm A')}</p>
+                            <p><FaCalendarAlt /> Date: {moment(event.start).format('MMMM Do, YYYY')}</p>
+                            <p><FaInfoCircle /> Type: {event.type}</p>
+                            <p><FaInfoCircle /> Description: {event.description || 'No description provided'}</p>
+                            <p><FaClock /> Reminder: {event.reminderDays} days before</p>
+                        </div>
                     </div>
-                    <div className="event-details">
-                        <p><FaBook /> Course: {event.course}</p>
-                        <p><FaClock /> Date: {moment(event.start).format('MMMM Do, h:mm a')}</p>
-                        <p><FaInfoCircle /> Type: {event.type}</p>
-                        <p><FaInfoCircle /> Description: {event.description}</p>
-                        <p><FaClock /> Reminder: {event.reminderDays} days before</p>
-                    </div>
-                </div>
+                </>
             )}
         </div>
     );
@@ -182,7 +195,7 @@ const EventForm = ({ newEvent, setNewEvent, handleAddEvent, onClose }) => {
 const CustomToolbar = () => null;
 
 const ScheduleManagement = () => {
-    const { ws, isConnected, scheduleEvents, addScheduleEvent } = useWebSocket();
+    const { scheduleEvents, addScheduleEvent } = useWebSocket();
     const [showAddForm, setShowAddForm] = useState(false);
     const [newEvent, setNewEvent] = useState({
         title: '',
@@ -193,28 +206,32 @@ const ScheduleManagement = () => {
         reminderDays: 1
     });
 
-    const testEvents = [
-        {
-            id: '1',
-            title: 'Final',
-            start: new Date(), 
-            end: new Date(),  
-            course: 'CS3307',
-            type: 'Exam',
-            description: 'Midterm',
-            reminderDays: 1
-        },
-        {
-            id: '2',
-            title: 'Test Event',
-            start: new Date(),
-            end: new Date(),   
-            course: 'CS101',
-            type: 'exam',
-            description: 'Test description',
-            reminderDays: 1
-        }
-    ];
+    // Log the current schedule events whenever they change
+    useEffect(() => {
+        console.log("Current schedule events:", scheduleEvents);
+    }, [scheduleEvents]);
+
+    const transformedEvents = useMemo(() => {
+        return scheduleEvents.map(event => {
+            const timestamp = event.date * 1000;
+            return {
+                id: event.id,
+                title: event.course,
+                start: new Date(timestamp),
+                end: new Date(timestamp + 3600000),
+                course: event.course,
+                type: event.type,
+                description: event.description,
+                reminderDays: event.reminderDays
+            };
+        });
+    }, [scheduleEvents]);
+
+    // Add this debug useEffect
+    useEffect(() => {
+        console.log('Schedule Events:', scheduleEvents);
+        console.log('Transformed Events:', transformedEvents);
+    }, [scheduleEvents, transformedEvents]);
 
     return (
         <div className="schedule-container">
@@ -252,6 +269,7 @@ const ScheduleManagement = () => {
                                 course: '',
                                 reminderDays: 1
                             });
+                            window.location.reload();
                         } catch (error) {
                             alert('Failed to add event. Please try again.');
                             console.error('Error adding event:', error);
@@ -263,7 +281,7 @@ const ScheduleManagement = () => {
             
             <Calendar
                 localizer={localizer}
-                events={testEvents}
+                events={transformedEvents}
                 defaultView="month"
                 views={["month"]}
                 startAccessor="start"
@@ -276,8 +294,19 @@ const ScheduleManagement = () => {
                     padding: '15px'
                 }}
                 components={{
-                    event: EventComponent 
+                    event: EventComponent,
+                    toolbar: CustomToolbar
                 }}
+                eventPropGetter={(event) => ({
+                    className: `event-${event.type}`,
+                    style: {
+                        backgroundColor: '#007bff',
+                        color: 'white',
+                        borderRadius: '3px',
+                        border: 'none',
+                        padding: '2px 5px'
+                    }
+                })}
             />
         </div>
     );
