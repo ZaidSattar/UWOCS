@@ -53,8 +53,10 @@ private:
 class DocumentHandler {
 public:
     DocumentHandler();
-    std::string listDocuments();
-    std::vector<char> getDocument(const std::string& filename);
+    virtual std::string listDocuments();
+    virtual std::vector<uint8_t> getDocument(const std::string& filename);
+    virtual bool documentExists(const std::string& filename);
+    virtual ~DocumentHandler() = default;
 
 private:
     DocumentStorage storage;

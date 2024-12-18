@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /Users/zaidsattar/cpp-react-websockets/backend/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/opt/homebrew/Cellar/cmake/3.31.0/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -84,6 +94,51 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/Cellar/cmake/3.31.0/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/Cellar/cmake/3.31.0/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/Cellar/cmake/3.31.0/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/Cellar/cmake/3.31.0/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/Cellar/cmake/3.31.0/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/Cellar/cmake/3.31.0/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,12 +184,78 @@ server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
 .PHONY : server/fast
 
+#=============================================================================
+# Target rules for targets named unit_tests
+
+# Build rule for target.
+unit_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unit_tests
+.PHONY : unit_tests
+
+# fast build rule for target.
+unit_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/build
+.PHONY : unit_tests/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
 src/CoursePlanner.o: src/CoursePlanner.cpp.o
 .PHONY : src/CoursePlanner.o
 
 # target to build an object file
 src/CoursePlanner.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/CoursePlanner.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/CoursePlanner.cpp.o
 .PHONY : src/CoursePlanner.cpp.o
 
 src/CoursePlanner.i: src/CoursePlanner.cpp.i
@@ -143,6 +264,7 @@ src/CoursePlanner.i: src/CoursePlanner.cpp.i
 # target to preprocess a source file
 src/CoursePlanner.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/CoursePlanner.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/CoursePlanner.cpp.i
 .PHONY : src/CoursePlanner.cpp.i
 
 src/CoursePlanner.s: src/CoursePlanner.cpp.s
@@ -151,6 +273,7 @@ src/CoursePlanner.s: src/CoursePlanner.cpp.s
 # target to generate assembly for a file
 src/CoursePlanner.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/CoursePlanner.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/CoursePlanner.cpp.s
 .PHONY : src/CoursePlanner.cpp.s
 
 src/DocumentHandler.o: src/DocumentHandler.cpp.o
@@ -159,6 +282,7 @@ src/DocumentHandler.o: src/DocumentHandler.cpp.o
 # target to build an object file
 src/DocumentHandler.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/DocumentHandler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/DocumentHandler.cpp.o
 .PHONY : src/DocumentHandler.cpp.o
 
 src/DocumentHandler.i: src/DocumentHandler.cpp.i
@@ -167,6 +291,7 @@ src/DocumentHandler.i: src/DocumentHandler.cpp.i
 # target to preprocess a source file
 src/DocumentHandler.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/DocumentHandler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/DocumentHandler.cpp.i
 .PHONY : src/DocumentHandler.cpp.i
 
 src/DocumentHandler.s: src/DocumentHandler.cpp.s
@@ -175,6 +300,7 @@ src/DocumentHandler.s: src/DocumentHandler.cpp.s
 # target to generate assembly for a file
 src/DocumentHandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/DocumentHandler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/DocumentHandler.cpp.s
 .PHONY : src/DocumentHandler.cpp.s
 
 src/GPACalculator.o: src/GPACalculator.cpp.o
@@ -183,6 +309,7 @@ src/GPACalculator.o: src/GPACalculator.cpp.o
 # target to build an object file
 src/GPACalculator.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/GPACalculator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/GPACalculator.cpp.o
 .PHONY : src/GPACalculator.cpp.o
 
 src/GPACalculator.i: src/GPACalculator.cpp.i
@@ -191,6 +318,7 @@ src/GPACalculator.i: src/GPACalculator.cpp.i
 # target to preprocess a source file
 src/GPACalculator.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/GPACalculator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/GPACalculator.cpp.i
 .PHONY : src/GPACalculator.cpp.i
 
 src/GPACalculator.s: src/GPACalculator.cpp.s
@@ -199,6 +327,7 @@ src/GPACalculator.s: src/GPACalculator.cpp.s
 # target to generate assembly for a file
 src/GPACalculator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/GPACalculator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/GPACalculator.cpp.s
 .PHONY : src/GPACalculator.cpp.s
 
 src/GraduationProgress.o: src/GraduationProgress.cpp.o
@@ -207,6 +336,7 @@ src/GraduationProgress.o: src/GraduationProgress.cpp.o
 # target to build an object file
 src/GraduationProgress.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/GraduationProgress.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/GraduationProgress.cpp.o
 .PHONY : src/GraduationProgress.cpp.o
 
 src/GraduationProgress.i: src/GraduationProgress.cpp.i
@@ -215,6 +345,7 @@ src/GraduationProgress.i: src/GraduationProgress.cpp.i
 # target to preprocess a source file
 src/GraduationProgress.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/GraduationProgress.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/GraduationProgress.cpp.i
 .PHONY : src/GraduationProgress.cpp.i
 
 src/GraduationProgress.s: src/GraduationProgress.cpp.s
@@ -223,6 +354,7 @@ src/GraduationProgress.s: src/GraduationProgress.cpp.s
 # target to generate assembly for a file
 src/GraduationProgress.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/GraduationProgress.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/GraduationProgress.cpp.s
 .PHONY : src/GraduationProgress.cpp.s
 
 src/ScheduleHandler.o: src/ScheduleHandler.cpp.o
@@ -231,6 +363,7 @@ src/ScheduleHandler.o: src/ScheduleHandler.cpp.o
 # target to build an object file
 src/ScheduleHandler.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/ScheduleHandler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/ScheduleHandler.cpp.o
 .PHONY : src/ScheduleHandler.cpp.o
 
 src/ScheduleHandler.i: src/ScheduleHandler.cpp.i
@@ -239,6 +372,7 @@ src/ScheduleHandler.i: src/ScheduleHandler.cpp.i
 # target to preprocess a source file
 src/ScheduleHandler.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/ScheduleHandler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/ScheduleHandler.cpp.i
 .PHONY : src/ScheduleHandler.cpp.i
 
 src/ScheduleHandler.s: src/ScheduleHandler.cpp.s
@@ -247,6 +381,7 @@ src/ScheduleHandler.s: src/ScheduleHandler.cpp.s
 # target to generate assembly for a file
 src/ScheduleHandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/ScheduleHandler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/src/ScheduleHandler.cpp.s
 .PHONY : src/ScheduleHandler.cpp.s
 
 src/server.o: src/server.cpp.o
@@ -273,6 +408,150 @@ src/server.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/server.cpp.s
 .PHONY : src/server.cpp.s
 
+tests/test_courseplanner.o: tests/test_courseplanner.cpp.o
+.PHONY : tests/test_courseplanner.o
+
+# target to build an object file
+tests/test_courseplanner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_courseplanner.cpp.o
+.PHONY : tests/test_courseplanner.cpp.o
+
+tests/test_courseplanner.i: tests/test_courseplanner.cpp.i
+.PHONY : tests/test_courseplanner.i
+
+# target to preprocess a source file
+tests/test_courseplanner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_courseplanner.cpp.i
+.PHONY : tests/test_courseplanner.cpp.i
+
+tests/test_courseplanner.s: tests/test_courseplanner.cpp.s
+.PHONY : tests/test_courseplanner.s
+
+# target to generate assembly for a file
+tests/test_courseplanner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_courseplanner.cpp.s
+.PHONY : tests/test_courseplanner.cpp.s
+
+tests/test_documenthandler.o: tests/test_documenthandler.cpp.o
+.PHONY : tests/test_documenthandler.o
+
+# target to build an object file
+tests/test_documenthandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_documenthandler.cpp.o
+.PHONY : tests/test_documenthandler.cpp.o
+
+tests/test_documenthandler.i: tests/test_documenthandler.cpp.i
+.PHONY : tests/test_documenthandler.i
+
+# target to preprocess a source file
+tests/test_documenthandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_documenthandler.cpp.i
+.PHONY : tests/test_documenthandler.cpp.i
+
+tests/test_documenthandler.s: tests/test_documenthandler.cpp.s
+.PHONY : tests/test_documenthandler.s
+
+# target to generate assembly for a file
+tests/test_documenthandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_documenthandler.cpp.s
+.PHONY : tests/test_documenthandler.cpp.s
+
+tests/test_gpacalculator.o: tests/test_gpacalculator.cpp.o
+.PHONY : tests/test_gpacalculator.o
+
+# target to build an object file
+tests/test_gpacalculator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_gpacalculator.cpp.o
+.PHONY : tests/test_gpacalculator.cpp.o
+
+tests/test_gpacalculator.i: tests/test_gpacalculator.cpp.i
+.PHONY : tests/test_gpacalculator.i
+
+# target to preprocess a source file
+tests/test_gpacalculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_gpacalculator.cpp.i
+.PHONY : tests/test_gpacalculator.cpp.i
+
+tests/test_gpacalculator.s: tests/test_gpacalculator.cpp.s
+.PHONY : tests/test_gpacalculator.s
+
+# target to generate assembly for a file
+tests/test_gpacalculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_gpacalculator.cpp.s
+.PHONY : tests/test_gpacalculator.cpp.s
+
+tests/test_graduationprogress.o: tests/test_graduationprogress.cpp.o
+.PHONY : tests/test_graduationprogress.o
+
+# target to build an object file
+tests/test_graduationprogress.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_graduationprogress.cpp.o
+.PHONY : tests/test_graduationprogress.cpp.o
+
+tests/test_graduationprogress.i: tests/test_graduationprogress.cpp.i
+.PHONY : tests/test_graduationprogress.i
+
+# target to preprocess a source file
+tests/test_graduationprogress.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_graduationprogress.cpp.i
+.PHONY : tests/test_graduationprogress.cpp.i
+
+tests/test_graduationprogress.s: tests/test_graduationprogress.cpp.s
+.PHONY : tests/test_graduationprogress.s
+
+# target to generate assembly for a file
+tests/test_graduationprogress.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_graduationprogress.cpp.s
+.PHONY : tests/test_graduationprogress.cpp.s
+
+tests/test_main.o: tests/test_main.cpp.o
+.PHONY : tests/test_main.o
+
+# target to build an object file
+tests/test_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_main.cpp.o
+.PHONY : tests/test_main.cpp.o
+
+tests/test_main.i: tests/test_main.cpp.i
+.PHONY : tests/test_main.i
+
+# target to preprocess a source file
+tests/test_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_main.cpp.i
+.PHONY : tests/test_main.cpp.i
+
+tests/test_main.s: tests/test_main.cpp.s
+.PHONY : tests/test_main.s
+
+# target to generate assembly for a file
+tests/test_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_main.cpp.s
+.PHONY : tests/test_main.cpp.s
+
+tests/test_schedulerhandler.o: tests/test_schedulerhandler.cpp.o
+.PHONY : tests/test_schedulerhandler.o
+
+# target to build an object file
+tests/test_schedulerhandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_schedulerhandler.cpp.o
+.PHONY : tests/test_schedulerhandler.cpp.o
+
+tests/test_schedulerhandler.i: tests/test_schedulerhandler.cpp.i
+.PHONY : tests/test_schedulerhandler.i
+
+# target to preprocess a source file
+tests/test_schedulerhandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_schedulerhandler.cpp.i
+.PHONY : tests/test_schedulerhandler.cpp.i
+
+tests/test_schedulerhandler.s: tests/test_schedulerhandler.cpp.s
+.PHONY : tests/test_schedulerhandler.s
+
+# target to generate assembly for a file
+tests/test_schedulerhandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unit_tests.dir/build.make CMakeFiles/unit_tests.dir/tests/test_schedulerhandler.cpp.s
+.PHONY : tests/test_schedulerhandler.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -280,8 +559,18 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... gmock"
+	@echo "... gmock_main"
+	@echo "... gtest"
+	@echo "... gtest_main"
 	@echo "... server"
+	@echo "... unit_tests"
 	@echo "... src/CoursePlanner.o"
 	@echo "... src/CoursePlanner.i"
 	@echo "... src/CoursePlanner.s"
@@ -300,6 +589,24 @@ help:
 	@echo "... src/server.o"
 	@echo "... src/server.i"
 	@echo "... src/server.s"
+	@echo "... tests/test_courseplanner.o"
+	@echo "... tests/test_courseplanner.i"
+	@echo "... tests/test_courseplanner.s"
+	@echo "... tests/test_documenthandler.o"
+	@echo "... tests/test_documenthandler.i"
+	@echo "... tests/test_documenthandler.s"
+	@echo "... tests/test_gpacalculator.o"
+	@echo "... tests/test_gpacalculator.i"
+	@echo "... tests/test_gpacalculator.s"
+	@echo "... tests/test_graduationprogress.o"
+	@echo "... tests/test_graduationprogress.i"
+	@echo "... tests/test_graduationprogress.s"
+	@echo "... tests/test_main.o"
+	@echo "... tests/test_main.i"
+	@echo "... tests/test_main.s"
+	@echo "... tests/test_schedulerhandler.o"
+	@echo "... tests/test_schedulerhandler.i"
+	@echo "... tests/test_schedulerhandler.s"
 .PHONY : help
 
 

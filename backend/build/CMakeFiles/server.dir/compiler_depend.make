@@ -1016,8 +1016,52 @@ CMakeFiles/server.dir/src/CoursePlanner.cpp.o: /Users/zaidsattar/cpp-react-webso
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  _deps/json-src/single_include/nlohmann/json.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/include/CoursePlanner.h
+  /Users/zaidsattar/cpp-react-websockets/backend/include/CoursePlanner.h \
+  /opt/homebrew/include/nlohmann/adl_serializer.hpp \
+  /opt/homebrew/include/nlohmann/byte_container_with_subtype.hpp \
+  /opt/homebrew/include/nlohmann/detail/abi_macros.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/from_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_chars.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/exceptions.hpp \
+  /opt/homebrew/include/nlohmann/detail/hash.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/binary_reader.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/input_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/json_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/lexer.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/parser.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/position_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_custom_base_class.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_pointer.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_ref.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_scope.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_unscope.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/end.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/cpp_future.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/detected.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/identity_tag.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/is_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/std_fs.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/type_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/void_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/binary_writer.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/output_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/serializer.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_concat.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_escape.hpp \
+  /opt/homebrew/include/nlohmann/detail/value_t.hpp \
+  /opt/homebrew/include/nlohmann/json.hpp \
+  /opt/homebrew/include/nlohmann/json_fwd.hpp \
+  /opt/homebrew/include/nlohmann/ordered_map.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
 
 CMakeFiles/server.dir/src/DocumentHandler.cpp.o: /Users/zaidsattar/cpp-react-websockets/backend/src/DocumentHandler.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/Availability.h \
@@ -2035,8 +2079,52 @@ CMakeFiles/server.dir/src/DocumentHandler.cpp.o: /Users/zaidsattar/cpp-react-web
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  _deps/json-src/single_include/nlohmann/json.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/include/DocumentHandler.h
+  /Users/zaidsattar/cpp-react-websockets/backend/include/DocumentHandler.h \
+  /opt/homebrew/include/nlohmann/adl_serializer.hpp \
+  /opt/homebrew/include/nlohmann/byte_container_with_subtype.hpp \
+  /opt/homebrew/include/nlohmann/detail/abi_macros.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/from_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_chars.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/exceptions.hpp \
+  /opt/homebrew/include/nlohmann/detail/hash.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/binary_reader.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/input_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/json_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/lexer.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/parser.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/position_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_custom_base_class.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_pointer.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_ref.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_scope.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_unscope.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/end.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/cpp_future.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/detected.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/identity_tag.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/is_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/std_fs.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/type_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/void_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/binary_writer.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/output_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/serializer.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_concat.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_escape.hpp \
+  /opt/homebrew/include/nlohmann/detail/value_t.hpp \
+  /opt/homebrew/include/nlohmann/json.hpp \
+  /opt/homebrew/include/nlohmann/json_fwd.hpp \
+  /opt/homebrew/include/nlohmann/ordered_map.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
 
 CMakeFiles/server.dir/src/GPACalculator.cpp.o: /Users/zaidsattar/cpp-react-websockets/backend/src/GPACalculator.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/Availability.h \
@@ -2047,11 +2135,13 @@ CMakeFiles/server.dir/src/GPACalculator.cpp.o: /Users/zaidsattar/cpp-react-webso
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/__wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/__xlocale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_abort.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_ctermid.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_locale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_mb_cur_max.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_printf.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_static_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_string.h \
@@ -2079,6 +2169,7 @@ CMakeFiles/server.dir/src/GPACalculator.cpp.o: /Users/zaidsattar/cpp-react-webso
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/limits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/all_of.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/any_of.h \
@@ -2346,14 +2437,28 @@ CMakeFiles/server.dir/src/GPACalculator.cpp.o: /Users/zaidsattar/cpp-react-webso
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__charconv/to_chars_result.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__charconv/traits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/calendar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/concepts.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/convert_to_tm.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/day.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/duration.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/file_clock.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/hh_mm_ss.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/literals.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/month.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/month_weekday.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/monthday.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/statically_widen.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/steady_clock.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/system_clock.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/time_point.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/weekday.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year_month.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year_month_day.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__compare/common_comparison_category.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__compare/compare_partial_order_fallback.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__compare/compare_strong_order_fallback.h \
@@ -2591,8 +2696,21 @@ CMakeFiles/server.dir/src/GPACalculator.cpp.o: /Users/zaidsattar/cpp-react-webso
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__mutex/tag_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__mutex/unique_lock.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__node_handle \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/accumulate.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/inner_product.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/iota.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/midpoint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/pstl_reduce.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/pstl_transform_reduce.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/reduce.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/saturation_arithmetic.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/is_valid.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/log2.h \
@@ -2625,6 +2743,7 @@ CMakeFiles/server.dir/src/GPACalculator.cpp.o: /Users/zaidsattar/cpp-react-webso
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/id.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__threading_support \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__tree \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__tuple/pair_like.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h \
@@ -2798,12 +2917,15 @@ CMakeFiles/server.dir/src/GPACalculator.cpp.o: /Users/zaidsattar/cpp-react-webso
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__variant/monostate.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__verbose_abort \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/algorithm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/any \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/array \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/atomic \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/bit \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cctype \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cerrno \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/chrono \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/climits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/clocale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cmath \
@@ -2825,6 +2947,7 @@ CMakeFiles/server.dir/src/GPACalculator.cpp.o: /Users/zaidsattar/cpp-react-webso
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/execution \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/format \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/forward_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/initializer_list \
@@ -2837,10 +2960,12 @@ CMakeFiles/server.dir/src/GPACalculator.cpp.o: /Users/zaidsattar/cpp-react-webso
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/limits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/locale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/memory \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/mutex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/new \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/numeric \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/optional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/ostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/print \
@@ -2863,6 +2988,7 @@ CMakeFiles/server.dir/src/GPACalculator.cpp.o: /Users/zaidsattar/cpp-react-webso
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/typeinfo \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/unordered_map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/utility \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/valarray \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/variant \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/version \
@@ -3016,7 +3142,52 @@ CMakeFiles/server.dir/src/GPACalculator.cpp.o: /Users/zaidsattar/cpp-react-webso
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  /Users/zaidsattar/cpp-react-websockets/backend/include/GPACalculator.h
+  /Users/zaidsattar/cpp-react-websockets/backend/include/GPACalculator.h \
+  /opt/homebrew/include/nlohmann/adl_serializer.hpp \
+  /opt/homebrew/include/nlohmann/byte_container_with_subtype.hpp \
+  /opt/homebrew/include/nlohmann/detail/abi_macros.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/from_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_chars.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/exceptions.hpp \
+  /opt/homebrew/include/nlohmann/detail/hash.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/binary_reader.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/input_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/json_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/lexer.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/parser.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/position_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_custom_base_class.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_pointer.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_ref.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_scope.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_unscope.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/end.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/cpp_future.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/detected.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/identity_tag.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/is_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/std_fs.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/type_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/void_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/binary_writer.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/output_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/serializer.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_concat.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_escape.hpp \
+  /opt/homebrew/include/nlohmann/detail/value_t.hpp \
+  /opt/homebrew/include/nlohmann/json.hpp \
+  /opt/homebrew/include/nlohmann/json_fwd.hpp \
+  /opt/homebrew/include/nlohmann/ordered_map.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
 
 CMakeFiles/server.dir/src/GraduationProgress.cpp.o: /Users/zaidsattar/cpp-react-websockets/backend/src/GraduationProgress.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/Availability.h \
@@ -4034,8 +4205,52 @@ CMakeFiles/server.dir/src/GraduationProgress.cpp.o: /Users/zaidsattar/cpp-react-
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  _deps/json-src/single_include/nlohmann/json.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/include/GraduationProgress.h
+  /Users/zaidsattar/cpp-react-websockets/backend/include/GraduationProgress.h \
+  /opt/homebrew/include/nlohmann/adl_serializer.hpp \
+  /opt/homebrew/include/nlohmann/byte_container_with_subtype.hpp \
+  /opt/homebrew/include/nlohmann/detail/abi_macros.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/from_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_chars.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/exceptions.hpp \
+  /opt/homebrew/include/nlohmann/detail/hash.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/binary_reader.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/input_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/json_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/lexer.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/parser.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/position_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_custom_base_class.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_pointer.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_ref.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_scope.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_unscope.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/end.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/cpp_future.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/detected.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/identity_tag.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/is_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/std_fs.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/type_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/void_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/binary_writer.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/output_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/serializer.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_concat.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_escape.hpp \
+  /opt/homebrew/include/nlohmann/detail/value_t.hpp \
+  /opt/homebrew/include/nlohmann/json.hpp \
+  /opt/homebrew/include/nlohmann/json_fwd.hpp \
+  /opt/homebrew/include/nlohmann/ordered_map.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
 
 CMakeFiles/server.dir/src/ScheduleHandler.cpp.o: /Users/zaidsattar/cpp-react-websockets/backend/src/ScheduleHandler.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/Availability.h \
@@ -5087,8 +5302,52 @@ CMakeFiles/server.dir/src/ScheduleHandler.cpp.o: /Users/zaidsattar/cpp-react-web
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  _deps/json-src/single_include/nlohmann/json.hpp \
-  /Users/zaidsattar/cpp-react-websockets/backend/include/ScheduleHandler.h
+  /Users/zaidsattar/cpp-react-websockets/backend/include/ScheduleHandler.h \
+  /opt/homebrew/include/nlohmann/adl_serializer.hpp \
+  /opt/homebrew/include/nlohmann/byte_container_with_subtype.hpp \
+  /opt/homebrew/include/nlohmann/detail/abi_macros.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/from_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_chars.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/exceptions.hpp \
+  /opt/homebrew/include/nlohmann/detail/hash.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/binary_reader.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/input_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/json_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/lexer.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/parser.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/position_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_custom_base_class.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_pointer.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_ref.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_scope.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_unscope.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/end.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/cpp_future.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/detected.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/identity_tag.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/is_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/std_fs.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/type_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/void_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/binary_writer.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/output_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/serializer.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_concat.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_escape.hpp \
+  /opt/homebrew/include/nlohmann/detail/value_t.hpp \
+  /opt/homebrew/include/nlohmann/json.hpp \
+  /opt/homebrew/include/nlohmann/json_fwd.hpp \
+  /opt/homebrew/include/nlohmann/ordered_map.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
 
 CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/backend/src/server.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/Availability.h \
@@ -6204,7 +6463,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  _deps/json-src/single_include/nlohmann/json.hpp \
   /Users/zaidsattar/cpp-react-websockets/backend/include/DocumentHandler.h \
   /Users/zaidsattar/cpp-react-websockets/backend/include/ScheduleHandler.h \
   /Users/zaidsattar/cpp-react-websockets/backend/include/CoursePlanner.h \
@@ -7441,7 +7699,52 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
   /opt/homebrew/include/boost/utility/result_of.hpp \
   /opt/homebrew/include/boost/utility/string_view.hpp \
   /opt/homebrew/include/boost/utility/string_view_fwd.hpp \
-  /opt/homebrew/include/boost/version.hpp
+  /opt/homebrew/include/boost/version.hpp \
+  /opt/homebrew/include/nlohmann/adl_serializer.hpp \
+  /opt/homebrew/include/nlohmann/byte_container_with_subtype.hpp \
+  /opt/homebrew/include/nlohmann/detail/abi_macros.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/from_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_chars.hpp \
+  /opt/homebrew/include/nlohmann/detail/conversions/to_json.hpp \
+  /opt/homebrew/include/nlohmann/detail/exceptions.hpp \
+  /opt/homebrew/include/nlohmann/detail/hash.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/binary_reader.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/input_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/json_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/lexer.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/parser.hpp \
+  /opt/homebrew/include/nlohmann/detail/input/position_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/internal_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iter_impl.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/iterator_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_custom_base_class.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_pointer.hpp \
+  /opt/homebrew/include/nlohmann/detail/json_ref.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_scope.hpp \
+  /opt/homebrew/include/nlohmann/detail/macro_unscope.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/begin.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/call_std/end.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/cpp_future.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/detected.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/identity_tag.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/is_sax.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/std_fs.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/type_traits.hpp \
+  /opt/homebrew/include/nlohmann/detail/meta/void_t.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/binary_writer.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/output_adapters.hpp \
+  /opt/homebrew/include/nlohmann/detail/output/serializer.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_concat.hpp \
+  /opt/homebrew/include/nlohmann/detail/string_escape.hpp \
+  /opt/homebrew/include/nlohmann/detail/value_t.hpp \
+  /opt/homebrew/include/nlohmann/json.hpp \
+  /opt/homebrew/include/nlohmann/json_fwd.hpp \
+  /opt/homebrew/include/nlohmann/ordered_map.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley.hpp \
+  /opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
 
 
 /opt/homebrew/include/boost/utility/string_view_fwd.hpp:
@@ -7499,8 +7802,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /opt/homebrew/include/boost/type_traits/is_list_constructible.hpp:
 
 /opt/homebrew/include/boost/type_traits/is_enum.hpp:
-
-/opt/homebrew/include/boost/type_traits/is_destructible.hpp:
 
 /opt/homebrew/include/boost/type_traits/is_default_constructible.hpp:
 
@@ -7563,8 +7864,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /opt/homebrew/include/boost/type_traits/has_greater_equal.hpp:
 
 /opt/homebrew/include/boost/type_traits/has_greater.hpp:
-
-/opt/homebrew/include/boost/type_traits/has_divides.hpp:
 
 /opt/homebrew/include/boost/type_traits/has_dereference.hpp:
 
@@ -7715,8 +8014,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /opt/homebrew/include/boost/preprocessor/list/fold_right.hpp:
 
 /opt/homebrew/include/boost/preprocessor/list/detail/fold_right.hpp:
-
-/opt/homebrew/include/boost/preprocessor/list/detail/fold_left.hpp:
 
 /opt/homebrew/include/boost/preprocessor/facilities/identity.hpp:
 
@@ -7948,8 +8245,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/move/detail/std_ns_end.hpp:
 
-/opt/homebrew/include/boost/move/detail/std_ns_begin.hpp:
-
 /opt/homebrew/include/boost/move/detail/pointer_element.hpp:
 
 /opt/homebrew/include/boost/move/detail/placement_new.hpp:
@@ -8162,8 +8457,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/core/first_scalar.hpp:
 
-/opt/homebrew/include/boost/core/explicit_operator_bool.hpp:
-
 /opt/homebrew/include/boost/core/enable_if.hpp:
 
 /opt/homebrew/include/boost/core/empty_value.hpp:
@@ -8221,8 +8514,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /opt/homebrew/include/boost/intrusive/detail/std_fwd.hpp:
 
 /opt/homebrew/include/boost/config/detail/select_platform_config.hpp:
-
-/opt/homebrew/include/boost/config/compiler/clang_version.hpp:
 
 /opt/homebrew/include/boost/config.hpp:
 
@@ -8376,15 +8667,9 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/beast/core/read_size.hpp:
 
-/opt/homebrew/include/boost/beast/core/make_printable.hpp:
-
 /opt/homebrew/include/boost/beast/core/impl/string.ipp:
 
 /opt/homebrew/include/boost/beast/core/impl/static_buffer.ipp:
-
-/opt/homebrew/include/boost/preprocessor/config/limits.hpp:
-
-/opt/homebrew/include/boost/beast/core/impl/static_buffer.hpp:
 
 /opt/homebrew/include/boost/beast/core/impl/flat_static_buffer.ipp:
 
@@ -8404,9 +8689,19 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/beast/core/impl/async_base.hpp:
 
-/opt/homebrew/include/boost/asio/detail/impl/handler_tracking.ipp:
+/opt/homebrew/include/boost/beast/core/flat_static_buffer.hpp:
 
-/opt/homebrew/include/boost/beast/core/detail/work_guard.hpp:
+/opt/homebrew/include/boost/mpl/aux_/config/msvc.hpp:
+
+/opt/homebrew/include/boost/beast/core/error.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/varint.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/variant.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/type_traits.hpp:
 
 /opt/homebrew/include/boost/core/checked_delete.hpp:
 
@@ -8416,7 +8711,17 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/beast/core/detail/sha1.ipp:
 
+/opt/homebrew/include/boost/config/platform/macos.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/sha1.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/service_base.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/remap_post_to_defer.hpp:
+
 /opt/homebrew/include/boost/beast/core/detail/read.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/pcg.hpp:
 
 /opt/homebrew/include/boost/type_traits/has_new_operator.hpp:
 
@@ -8424,17 +8729,27 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/beast/core/detail/is_invocable.hpp:
 
+/opt/homebrew/include/boost/type_traits/is_volatile.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/impl/temporary_buffer.ipp:
+
+/opt/homebrew/include/boost/beast/core/detail/impl/read.hpp:
+
 /opt/homebrew/include/boost/beast/core/detail/clamp.hpp:
 
 /opt/homebrew/include/boost/beast/core/detail/char_buffer.hpp:
 
-/opt/homebrew/include/boost/config/platform/macos.hpp:
-
-/opt/homebrew/include/boost/beast/core/detail/sha1.hpp:
-
 /opt/homebrew/include/boost/system/detail/error_code.hpp:
 
 /opt/homebrew/include/boost/beast/core/detail/buffers_ref.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/buffers_range_adaptor.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/buffers_pair.hpp:
+
+/opt/homebrew/include/boost/beast/websocket/rfc6455.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/buffer_traits.hpp:
 
 /opt/homebrew/include/boost/beast/core/detail/buffer.hpp:
 
@@ -8444,15 +8759,11 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/beast/core/buffers_suffix.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/concepts.h:
-
-/opt/homebrew/include/boost/beast/core/detail/static_const.hpp:
+/opt/homebrew/include/boost/beast/core/buffers_range.hpp:
 
 /opt/homebrew/include/boost/beast/core/buffers_prefix.hpp:
 
-/opt/homebrew/include/boost/asio/cancellation_type.hpp:
-
-/opt/homebrew/include/boost/beast/core/async_base.hpp:
+/opt/homebrew/include/boost/beast/core/buffers_cat.hpp:
 
 /opt/homebrew/include/boost/asio/write.hpp:
 
@@ -8546,8 +8857,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/asio/require_concept.hpp:
 
-/opt/homebrew/include/boost/asio/require.hpp:
-
 /opt/homebrew/include/boost/asio/registered_buffer.hpp:
 
 /opt/homebrew/include/boost/beast/http/rfc7230.hpp:
@@ -8575,10 +8884,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /opt/homebrew/include/boost/asio/posix/descriptor.hpp:
 
 /opt/homebrew/include/boost/asio/placeholders.hpp:
-
-/opt/homebrew/include/boost/asio/detail/deadline_timer_service.hpp:
-
-/opt/homebrew/include/boost/assert/source_location.hpp:
 
 /opt/homebrew/include/boost/asio/strand.hpp:
 
@@ -8696,6 +9001,8 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/asio/ip/address.hpp:
 
+/opt/homebrew/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
+
 /opt/homebrew/include/boost/asio/io_service_strand.hpp:
 
 /opt/homebrew/include/boost/asio/io_service.hpp:
@@ -8754,6 +9061,8 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/asio/impl/detached.hpp:
 
+/opt/homebrew/include/nlohmann/detail/output/binary_writer.hpp:
+
 /opt/homebrew/include/boost/asio/impl/deferred.hpp:
 
 /opt/homebrew/include/boost/mp11/detail/mp_is_list.hpp:
@@ -8808,9 +9117,9 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/type_traits/is_pointer.hpp:
 
-/Users/zaidsattar/cpp-react-websockets/backend/src/ScheduleHandler.cpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_o_dsync.h:
+
+/Users/zaidsattar/cpp-react-websockets/backend/src/ScheduleHandler.cpp:
 
 /opt/homebrew/include/boost/asio/dispatch.hpp:
 
@@ -8841,10 +9150,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /opt/homebrew/include/boost/asio/execution/relationship.hpp:
 
 /opt/homebrew/include/boost/asio/detail/timer_scheduler.hpp:
-
-/opt/homebrew/include/boost/asio/posix/basic_descriptor.hpp:
-
-/opt/homebrew/include/boost/beast/core/buffer_traits.hpp:
 
 /opt/homebrew/include/boost/date_time/time_clock.hpp:
 
@@ -8893,8 +9198,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_types/_uint64_t.h:
 
 /opt/homebrew/include/boost/asio/detail/scheduler_task.hpp:
-
-/opt/homebrew/include/boost/asio/detail/scheduler.hpp:
 
 /opt/homebrew/include/boost/asio/detail/resolver_service_base.hpp:
 
@@ -8962,8 +9265,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/asio/detail/op_queue.hpp:
 
-/opt/homebrew/include/boost/asio/detail/non_const_lvalue.hpp:
-
 /opt/homebrew/include/boost/asio/generic/raw_protocol.hpp:
 
 /opt/homebrew/include/boost/asio/execution/occupancy.hpp:
@@ -8992,10 +9293,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/asio/detail/initiation_base.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
-
-/opt/homebrew/include/boost/asio/detail/impl/strand_executor_service.hpp:
-
 /opt/homebrew/include/boost/asio/detail/impl/signal_set_service.ipp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/any_of.h:
@@ -9011,6 +9308,10 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /opt/homebrew/include/boost/asio/detail/impl/null_event.ipp:
 
 /opt/homebrew/include/boost/asio/detail/impl/kqueue_reactor.ipp:
+
+/opt/homebrew/include/boost/beast/core/detail/work_guard.hpp:
+
+/opt/homebrew/include/boost/asio/detail/impl/handler_tracking.ipp:
 
 /opt/homebrew/include/boost/mpl/aux_/config/eti.hpp:
 
@@ -9036,17 +9337,15 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/asio/detail/dependent_type.hpp:
 
+/opt/homebrew/include/boost/assert/source_location.hpp:
+
+/opt/homebrew/include/boost/asio/detail/deadline_timer_service.hpp:
+
 /opt/homebrew/include/boost/asio/detail/date_time_fwd.hpp:
 
 /opt/homebrew/include/boost/intrusive/bs_set_hook.hpp:
 
 /opt/homebrew/include/boost/asio/detail/cstddef.hpp:
-
-/opt/homebrew/include/boost/preprocessor/debug/error.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/in_in_out_result.h:
-
-/opt/homebrew/include/boost/beast/core/detail/chacha.hpp:
 
 /opt/homebrew/include/boost/asio/detail/consuming_buffers.hpp:
 
@@ -9116,6 +9415,8 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/asio/connect.hpp:
 
+/opt/homebrew/include/nlohmann/detail/macro_unscope.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_class.h:
 
 /opt/homebrew/include/boost/asio/composed.hpp:
@@ -9127,6 +9428,10 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /opt/homebrew/include/boost/asio/execution/blocking_adaptation.hpp:
 
 /opt/homebrew/include/boost/asio/co_composed.hpp:
+
+/opt/homebrew/include/boost/beast/core/async_base.hpp:
+
+/opt/homebrew/include/boost/asio/cancellation_type.hpp:
 
 /opt/homebrew/include/boost/type_traits/has_trivial_copy.hpp:
 
@@ -9145,10 +9450,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /opt/homebrew/include/boost/asio/cancel_after.hpp:
 
 /opt/homebrew/include/boost/asio/buffered_stream_fwd.hpp:
-
-/opt/homebrew/include/boost/beast/websocket/rfc6455.hpp:
-
-/opt/homebrew/include/boost/beast/core/detail/buffer_traits.hpp:
 
 /opt/homebrew/include/boost/asio/buffered_read_stream.hpp:
 
@@ -9179,6 +9480,12 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /opt/homebrew/include/boost/asio/basic_streambuf.hpp:
 
 /opt/homebrew/include/boost/asio/basic_stream_file.hpp:
+
+/opt/homebrew/include/boost/asio/detail/scoped_ptr.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/static_string.hpp:
+
+/opt/homebrew/include/boost/asio/basic_socket_streambuf.hpp:
 
 /opt/homebrew/include/boost/asio/detail/assert.hpp:
 
@@ -9228,6 +9535,8 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /opt/homebrew/include/boost/asio/any_completion_handler.hpp:
 
+/opt/homebrew/include/nlohmann/detail/meta/is_sax.hpp:
+
 /opt/homebrew/include/boost/asio/any_completion_executor.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/semiregular.h:
@@ -9241,10 +9550,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_abstract.h:
 
 /opt/homebrew/include/boost/align/detail/is_alignment.hpp:
-
-/opt/homebrew/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp:
-
-/opt/homebrew/include/boost/beast/core/detail/type_traits.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
 
@@ -9275,14 +9580,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/termios.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/stat.h:
-
-/opt/homebrew/include/boost/type_traits/has_not_equal_to.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_max.h:
-
-/opt/homebrew/include/boost/asio/detail/impl/posix_thread.ipp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/select.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/queue.h:
 
@@ -9327,6 +9624,8 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /opt/homebrew/include/boost/asio/ip/address_v6.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h:
+
+/opt/homebrew/include/nlohmann/detail/conversions/to_chars.hpp:
 
 /opt/homebrew/include/boost/asio/execution/bad_executor.hpp:
 
@@ -9386,8 +9685,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/_param.h:
 
-/opt/homebrew/include/boost/beast/core/detail/buffers_pair.hpp:
-
 /Users/zaidsattar/cpp-react-websockets/backend/include/ScheduleHandler.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/weibull_distribution.h:
@@ -9413,16 +9710,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 /opt/homebrew/include/boost/asio/impl/read_until.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/ranlux.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/appleapiopts.h:
-
-/opt/homebrew/include/boost/asio/completion_condition.hpp:
-
-/opt/homebrew/include/boost/system/detail/cerrno.hpp:
-
-/opt/homebrew/include/boost/mpl/aux_/value_wknd.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h:
 
 /opt/homebrew/include/boost/asio/detail/impl/timer_queue_set.ipp:
 
@@ -9464,14 +9751,6 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/discard_block_engine.h:
 
-/opt/homebrew/include/boost/asio/basic_deadline_timer.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/clamp_to_integral.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_set_union.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/net/if.h:
 
 /Users/zaidsattar/cpp-react-websockets/backend/include/GraduationProgress.h:
@@ -9482,19 +9761,107 @@ CMakeFiles/server.dir/src/server.cpp.o: /Users/zaidsattar/cpp-react-websockets/b
 
 /Users/zaidsattar/cpp-react-websockets/backend/include/GPACalculator.h:
 
+/opt/homebrew/include/nlohmann/detail/string_concat.hpp:
+
+/opt/homebrew/include/nlohmann/detail/output/serializer.hpp:
+
+/opt/homebrew/include/boost/asio/require.hpp:
+
+/opt/homebrew/include/nlohmann/detail/output/output_adapters.hpp:
+
+/opt/homebrew/include/nlohmann/detail/meta/std_fs.hpp:
+
+/opt/homebrew/include/boost/core/explicit_operator_bool.hpp:
+
+/opt/homebrew/include/nlohmann/detail/meta/detected.hpp:
+
+/opt/homebrew/include/boost/asio/basic_deadline_timer.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/clamp_to_integral.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/map:
+
+/opt/homebrew/include/nlohmann/detail/meta/cpp_future.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/rel_ops.h:
+
+/opt/homebrew/include/nlohmann/detail/meta/call_std/end.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_not_equal_to.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_max.h:
+
+/opt/homebrew/include/boost/asio/detail/impl/posix_thread.ipp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/select.h:
+
+/opt/homebrew/include/nlohmann/detail/macro_scope.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_set_union.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h:
+
+/opt/homebrew/include/nlohmann/detail/json_ref.hpp:
+
+/opt/homebrew/include/nlohmann/detail/json_pointer.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/appleapiopts.h:
+
+/opt/homebrew/include/boost/asio/completion_condition.hpp:
+
+/opt/homebrew/include/boost/system/detail/cerrno.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/value_wknd.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h:
+
+/opt/homebrew/include/nlohmann/detail/json_custom_base_class.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_divides.hpp:
+
+/opt/homebrew/include/nlohmann/detail/iterators/primitive_iterator.hpp:
+
+/opt/homebrew/include/boost/asio/detail/scheduler.hpp:
+
+/opt/homebrew/include/nlohmann/detail/iterators/internal_iterator.hpp:
+
+/opt/homebrew/include/nlohmann/detail/input/parser.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
+
+/opt/homebrew/include/boost/asio/detail/impl/strand_executor_service.hpp:
+
+/opt/homebrew/include/nlohmann/detail/input/lexer.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_destructible.hpp:
+
+/opt/homebrew/include/nlohmann/adl_serializer.hpp:
+
+/opt/homebrew/include/nlohmann/detail/input/json_sax.hpp:
+
+/opt/homebrew/include/boost/config/compiler/clang_version.hpp:
+
+/opt/homebrew/include/nlohmann/detail/input/binary_reader.hpp:
+
+/opt/homebrew/include/boost/asio/detail/non_const_lvalue.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/includes.h:
+
+/opt/homebrew/include/nlohmann/detail/hash.hpp:
+
+/opt/homebrew/include/nlohmann/detail/conversions/from_json.hpp:
+
+/opt/homebrew/include/boost/asio/detail/reactive_socket_recv_op.hpp:
+
+/opt/homebrew/include/nlohmann/detail/abi_macros.hpp:
+
 /Users/zaidsattar/cpp-react-websockets/backend/include/CoursePlanner.h:
-
-/opt/homebrew/include/boost/asio/detail/scoped_ptr.hpp:
-
-/opt/homebrew/include/boost/beast/core/detail/static_string.hpp:
-
-/opt/homebrew/include/boost/asio/basic_socket_streambuf.hpp:
-
-_deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h:
 
 /opt/homebrew/include/boost/asio/detail/socket_holder.hpp:
+
+/opt/homebrew/include/nlohmann/detail/meta/identity_tag.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h:
 
@@ -9650,13 +10017,9 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
-/opt/homebrew/include/boost/type_traits/floating_point_promotion.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
-
-/opt/homebrew/include/boost/beast/core/detail/config.hpp:
-
 /opt/homebrew/include/boost/asio/detail/base_from_cancellation_state.hpp:
+
+/opt/homebrew/include/nlohmann/detail/iterators/iterator_traits.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
@@ -9788,8 +10151,6 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/malloc/_ptrcheck.h:
 
-/opt/homebrew/include/boost/asio/detail/reactive_socket_recv_op.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_remove_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/machine/signal.h:
@@ -9909,6 +10270,8 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /opt/homebrew/include/boost/asio/impl/io_context.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iomanip:
+
+/opt/homebrew/include/nlohmann/detail/meta/type_traits.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/initializer_list:
 
@@ -10432,10 +10795,6 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/hh_mm_ss.h:
-
-/opt/homebrew/include/boost/beast/core/detail/tuple.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_void.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/all_of.h:
@@ -10443,6 +10802,10 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__threading_support:
+
+/opt/homebrew/include/boost/preprocessor/list/detail/fold_left.hpp:
+
+/opt/homebrew/include/nlohmann/detail/value_t.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
 
@@ -10477,6 +10840,8 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /opt/homebrew/include/boost/asio/detail/impl/throw_error.ipp:
 
 /opt/homebrew/include/boost/asio/buffers_iterator.hpp:
+
+/opt/homebrew/include/nlohmann/detail/iterators/iteration_proxy.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h:
 
@@ -10518,6 +10883,8 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/complex:
 
+/opt/homebrew/include/nlohmann/detail/meta/void_t.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__ranges/container_compatible_range.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_int16_t.h:
@@ -10531,8 +10898,6 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/saturation_arithmetic.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/rel_ops.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/pthread/pthread_impl.h:
 
@@ -10563,6 +10928,8 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h:
+
+/opt/homebrew/include/nlohmann/byte_container_with_subtype.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__mutex/unique_lock.h:
 
@@ -10620,6 +10987,12 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
 
+/opt/homebrew/include/boost/preprocessor/config/limits.hpp:
+
+/opt/homebrew/include/boost/beast/core/impl/static_buffer.hpp:
+
+/opt/homebrew/include/nlohmann/detail/exceptions.hpp:
+
 /opt/homebrew/include/boost/core/detail/sp_thread_sleep.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backend.h:
@@ -10672,7 +11045,9 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h:
 
-/opt/homebrew/include/boost/beast/core/detail/buffers_range_adaptor.hpp:
+/opt/homebrew/include/boost/beast/core/buffer_traits.hpp:
+
+/opt/homebrew/include/boost/asio/posix/basic_descriptor.hpp:
 
 /opt/homebrew/include/boost/asio/detail/timer_queue_set.hpp:
 
@@ -10882,10 +11257,6 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__fwd/string_view.h:
 
-/opt/homebrew/include/boost/type_traits/is_volatile.hpp:
-
-/opt/homebrew/include/boost/beast/core/detail/impl/temporary_buffer.ipp:
-
 /opt/homebrew/include/boost/type_traits/is_bounded_array.hpp:
 
 /opt/homebrew/include/boost/mpl/if.hpp:
@@ -10952,6 +11323,8 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/hash.h:
 
+/opt/homebrew/include/nlohmann/detail/string_escape.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fd_zero.h:
 
 /opt/homebrew/include/boost/system/detail/std_category_impl.hpp:
@@ -10963,10 +11336,6 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_merge.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/binary_negate.h:
-
-/opt/homebrew/include/boost/mpl/aux_/config/msvc.hpp:
-
-/opt/homebrew/include/boost/beast/core/error.hpp:
 
 /opt/homebrew/include/boost/asio/ip/impl/address.ipp:
 
@@ -11046,8 +11415,6 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/conditional.h:
 
-/opt/homebrew/include/boost/beast/core/detail/varint.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__ranges/from_range.h:
 
 /opt/homebrew/include/boost/endian/detail/endian_store.hpp:
@@ -11067,6 +11434,10 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_fd_setsize.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
+
+/opt/homebrew/include/nlohmann/json_fwd.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
 
@@ -11090,6 +11461,8 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /opt/homebrew/include/boost/asio/detail/handler_alloc_helpers.hpp:
 
+/opt/homebrew/include/nlohmann/json.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_arg.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/typeinfo:
@@ -11101,8 +11474,6 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/voidify.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/same_as.h:
-
-/opt/homebrew/include/boost/beast/core/detail/variant.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h:
 
@@ -11129,6 +11500,10 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__utility/pair.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/mergeable.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/replace.h:
+
+/opt/homebrew/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
 
@@ -11176,13 +11551,15 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/replace.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__filesystem/file_status.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/is_always_bitcastable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/ios:
+
+/opt/homebrew/include/boost/beast/core/make_printable.hpp:
+
+/opt/homebrew/include/nlohmann/detail/input/position_t.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_replace.h:
 
@@ -11219,6 +11596,14 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_none_of.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h:
+
+/opt/homebrew/include/boost/type_traits/detail/is_swappable_cxx_11.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/AvailabilityInternalLegacy.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__assert:
+
+/opt/homebrew/include/nlohmann/detail/input/input_adapters.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/container_adaptor.h:
 
@@ -11332,15 +11717,11 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__math/error_functions.h:
 
+/opt/homebrew/include/nlohmann/detail/conversions/to_json.hpp:
+
 /opt/homebrew/include/boost/describe/detail/config.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__assertion_handler:
-
-/opt/homebrew/include/boost/type_traits/detail/is_swappable_cxx_11.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/AvailabilityInternalLegacy.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__assert:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__fwd/fstream.h:
 
@@ -11386,13 +11767,9 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_mismatch.h:
 
-/opt/homebrew/include/boost/beast/core/detail/remap_post_to_defer.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/search.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
-
-/opt/homebrew/include/boost/beast/core/buffers_cat.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/sample.h:
 
@@ -11486,6 +11863,12 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h:
 
+/opt/homebrew/include/boost/preprocessor/debug/error.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/chacha.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/in_in_out_result.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_search.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_reverse_copy.h:
@@ -11527,6 +11910,8 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy.h:
+
+/opt/homebrew/include/nlohmann/ordered_map.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_any_of.h:
 
@@ -11626,8 +12011,6 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
-
 /opt/homebrew/include/boost/asio/detail/conditionally_enabled_mutex.hpp:
 
 /opt/homebrew/include/boost/preprocessor/facilities/overload.hpp:
@@ -11683,8 +12066,6 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sys/_types/_pid_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort_copy.h:
-
-/opt/homebrew/include/boost/beast/core/detail/pcg.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/find_end.h:
 
@@ -11754,13 +12135,9 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /opt/homebrew/include/boost/asio/detail/descriptor_read_op.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/map:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/pstl_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/merge.h:
-
-/opt/homebrew/include/boost/beast/core/detail/impl/read.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
 
@@ -11789,6 +12166,8 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_wchar_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/bit:
+
+/opt/homebrew/include/nlohmann/detail/iterators/iter_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
 
@@ -11845,6 +12224,8 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
+
+/opt/homebrew/include/nlohmann/detail/meta/call_std/begin.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iterator:
 
@@ -11912,6 +12293,10 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/stdio.h:
 
+/opt/homebrew/include/boost/beast/core/detail/static_const.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/concepts.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__bit/bit_cast.h:
 
 /opt/homebrew/include/boost/endian/detail/intrinsic.hpp:
@@ -11925,8 +12310,6 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/includes.h:
 
 /opt/homebrew/include/boost/beast/websocket/detail/prng.ipp:
 
@@ -11951,6 +12334,12 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/any:
 
 /opt/homebrew/include/boost/asio/detail/noncopyable.hpp:
+
+/opt/homebrew/include/boost/type_traits/floating_point_promotion.hpp:
+
+/opt/homebrew/include/boost/beast/core/detail/config.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
 
 /opt/homebrew/include/boost/asio/detail/initiate_post.hpp:
 
@@ -11998,6 +12387,10 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/arm/_types.h:
 
+/opt/homebrew/include/boost/move/detail/std_ns_begin.hpp:
+
+/opt/homebrew/include/nlohmann/thirdparty/hedley/hedley.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__variant/monostate.h:
 
 /opt/homebrew/include/boost/beast/http/status.hpp:
@@ -12042,11 +12435,7 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /opt/homebrew/include/boost/asio/local/stream_protocol.hpp:
 
-/opt/homebrew/include/boost/beast/core/buffers_range.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/random:
-
-/opt/homebrew/include/boost/beast/core/flat_static_buffer.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_assert.h:
 
@@ -12142,6 +12531,10 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/_wctype.h:
 
+/opt/homebrew/include/boost/beast/core/detail/tuple.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__chrono/hh_mm_ss.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_set_symmetric_difference.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
@@ -12153,8 +12546,6 @@ _deps/json-src/single_include/nlohmann/json.hpp:
 /opt/homebrew/include/boost/move/utility_core.hpp:
 
 /opt/homebrew/include/boost/asio/impl/system_executor.hpp:
-
-/opt/homebrew/include/boost/beast/core/detail/service_base.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/ranges_inplace_merge.h:
 

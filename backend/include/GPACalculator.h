@@ -14,6 +14,8 @@ class GPACalculator {
 public:
     GPACalculator() = default;
     std::string calculateGPA(const std::string& coursesData);
+    double calculateGradePoints(double grade);
+    std::string createErrorResponse(const std::string& message);
 
 private:
     double calculateWeightedGPA(const std::vector<Course>& courses);

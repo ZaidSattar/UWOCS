@@ -1,14 +1,9 @@
 {
     "currentYear": 1,
     "years": {
-        "1": {
+        "4": {
             "Fall Term": [
-                "CS3305"
-            ]
-        },
-        "2": {
-            "Fall Term": [
-                "CS3342"
+                "CS4456"
             ]
         }
     }

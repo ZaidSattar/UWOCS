@@ -112,13 +112,21 @@ std::string DocumentHandler::listDocuments() {
     return documentsJson.dump();
 }
 
-std::vector<char> DocumentHandler::getDocument(const std::string& filename) {
+std::vector<uint8_t> DocumentHandler::getDocument(const std::string& filename) {
     std::string sanitizedName = sanitizer->sanitize(filename);
     std::string filepath = STORAGE_PATH + sanitizedName;
     
     if (!validator->isValid(filepath)) {
-        return std::vector<char>();
+        return std::vector<uint8_t>();
     }
     
-    return storage.readFile(filepath);
+    std::vector<char> data = storage.readFile(filepath);
+    
+    return std::vector<uint8_t>(data.begin(), data.end());
+}
+
+bool DocumentHandler::documentExists(const std::string& filename) {
+    std::string sanitizedName = sanitizer->sanitize(filename);
+    std::string filepath = STORAGE_PATH + sanitizedName;
+    return validator->isValid(filepath);
 }
